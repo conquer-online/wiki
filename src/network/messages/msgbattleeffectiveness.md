@@ -1,0 +1,3 @@
+# MsgBattleEffectiveness
+
+Undocumented

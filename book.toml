@@ -3,4 +3,14 @@ authors = ["Spirited"]
 language = "en"
 multilingual = false
 src = "src"
-title = "Conquer Online"
+title = "Conquer Online Development Wiki"
+
+[output.html]
+git-repository-url = "https://github.com/conquer-online/wiki"
+git-repository-icon = "fa-github"
+default-theme = "rust"
+preferred-dark-theme = "rust"
+
+[output.html.fold]
+enable = true
+level = 1

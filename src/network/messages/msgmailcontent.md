@@ -1,0 +1,3 @@
+# MsgMailContent
+
+Undocumented
