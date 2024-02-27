@@ -6,6 +6,6 @@ Files in the Conquer Online game client follow some consistency in format, but a
 
 ## Subsections
 
-* [Compression](compression/README.md): File types meant for compressing content into a single file.
-* [Content](content/README.md): File types specific to content needed for the client renderers.
-* [Formats](formats/README.md): Formats for how to read various file types.
+* [Compression](compression/): File types meant for compressing content into a single file.
+* [Content](content/): File types specific to content needed for the client renderers.
+* [Formats](formats/): Formats for how to read various file types.

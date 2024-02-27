@@ -6,5 +6,5 @@ Conquer Online's client and server both utilize Microsoft's `rand` function for 
 
 ## Subsections
 
-* [Calculations](calculations/README.md): Algorithms used in calculating distance, damage, etc.
-* [Rates](rates/README.md): Descriptions of random rates for various systems.
+* [Calculations](calculations/): Algorithms used in calculating distance, damage, etc.
+* [Rates](rates/): Descriptions of random rates for various systems.

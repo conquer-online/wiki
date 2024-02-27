@@ -28,10 +28,10 @@ Statuses are used to indicate how reliable a page is / what the source of inform
 
 This wiki is broken up into multiple sections:
 
-* [Algorithms](algorithms/README.md): Calculations made for attacks, rates, skill distances, and more.
-* [Constants](constants/README.d): Hard-coded constants found in and across messages and the client.
-* [Files](files/README.md): File formats and definitions for various content types.
-* [Network](network/README.md): Message structures and client-server networking.
-* [Renderers](renderers/README.md): System descriptions for rendering content in the client.
-* [Security](security/README.md): Cryptography and security around networking and content.
-* [Strings](strings/README.md): Details on strings and restrictions on inputs.
+* [Algorithms](algorithms): Calculations made for attacks, rates, skill distances, and more.
+* [Constants](constants/): Hard-coded constants found in and across messages and the client.
+* [Files](files/): File formats and definitions for various content types.
+* [Network](network/): Message structures and client-server networking.
+* [Renderers](renderers/): System descriptions for rendering content in the client.
+* [Security](security/): Cryptography and security around networking and content.
+* [Strings](strings/): Details on strings and restrictions on inputs.

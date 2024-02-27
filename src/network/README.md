@@ -8,8 +8,8 @@ Conquer Online uses [TCP/IPv4](https://en.wikipedia.org/wiki/Transmission_Contro
 
 Conquer Online uses [Little-endian](https://en.wikipedia.org/wiki/Endianness) for the byte ordering of words and multi-byte sequences. 
 
-Games developed by TQ Digital Entertainment employ a custom binary protocol in this endianness, and contain a message header and sometimes a message footer. Messages are written to the binary protocol using custom encoding rules that change between versions of the client. These changes are documented in the [Messages](messages/README.d) section.
+Games developed by TQ Digital Entertainment employ a custom binary protocol in this endianness, and contain a message header and sometimes a message footer. Messages are written to the binary protocol using custom encoding rules that change between versions of the client. These changes are documented in the [Messages](messages/) section.
 
 ## Subsections
 
-* [Messages](messages/README.d): Definitions for how the client and server communicate.
+* [Messages](messages/): Definitions for how the client and server communicate.
