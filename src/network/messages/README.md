@@ -95,9 +95,9 @@ The table below is an abstract and directory of message types used in various pa
 | 1105 | [MsgMagicEffect](msgmagiceffect.md) | Cast a magical attack or effect |
 | 1106 | [MsgSyndicateAttributeInfo](msgsyndicateattributeinfo.md) | Guild and guild member details |
 | 1107 | [MsgSyndicate](msgsyndicate.md) | Guild action request |
-| 1108 | [MsgItemInfoEx](msgiteminfoex.md) |  |
-| 1109 | [MsgNpcInfoEx](msgnpcinfoex.md) |  |
-| 1110 | [MsgMapInfo](msgmapinfo.md) |  |
+| 1108 | [MsgItemInfoEx](msgiteminfoex.md) | Item details extended for a feature |
+| 1109 | [MsgNpcInfoEx](msgnpcinfoex.md) | NPC spawn with health |
+| 1110 | [MsgMapInfo](msgmapinfo.md) | Map type flags |
 | 1111 | [MsgMessageBoard](msgmessageboard.md) |  |
 | 1112 | [MsgSynMemberInfo](msgsynmemberinfo.md) |  |
 | 1113 | [MsgDice](msgdice.md) |  |
@@ -136,7 +136,7 @@ The table below is an abstract and directory of message types used in various pa
 | 1518 | [MsgConnectLegalitySpec](msgconnectlegalityspec.md) |  |
 | 1542 | [MsgAccountSRP6Ex](msgaccountsrp6ex.md) |  |
 | 1636 | [MsgAccountSRP6Ex](msgaccountsrp6ex.md) |  |
-| 2030 | [MsgNpcInfo](msgnpcinfo.md) |  |
+| 2030 | [MsgNpcInfo](msgnpcinfo.md) | NPC spawn information |
 | 2031 | [MsgNpc](msgnpc.md) |  |
 | 2032 | [MsgTaskDialog](msgtaskdialog.md) |  |
 | 2033 | [MsgFriendInfo](msgfriendinfo.md) |  |

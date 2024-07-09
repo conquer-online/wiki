@@ -1,0 +1,108 @@
+# Action
+
+Actions are emotes a role can perform. Not all roles can perform all types of actions. For monsters and players, this is determined by the [3dmotion.ini](/files/content/3dmotion.ini.md) file. For NPCs, this is determined by [npc.ini](/files/content/npc.ini.dat), which links with [3dmotion.ini](/files/content/3dmotion.ini.md) for `ACTION_STANDBY`, `ACTION_REST1`, and `ACTION_SAYHELLO`.
+
+## Table of Contents
+
+* [Patch 4267](#patch-4267)
+
+## Patch 4267
+
+☑️ Assumed (Observed) - Soul
+
+```proto
+enum ActionType {
+
+    ACTION_DANCE1 = 1;
+    ACTION_DANCE2 = 2;
+    ACTION_DANCE3 = 3;
+    ACTION_DANCE4 = 4;
+    ACTION_DANCE5 = 5;
+    ACTION_DANCE6 = 6;
+    ACTION_DANCE7 = 7;
+    ACTION_DANCE8 = 8;
+    ACTION_STANDBY = 100;
+    ACTION_REST1 = 101;
+    ACTION_REST2 = 102;
+    ACTION_REST3 = 103;
+    ACTION_STANDBY_I = 105;
+    ACTION_WALKL = 110;
+    ACTION_WALKR = 111;
+    ACTION_WALKL_I = 115;
+    ACTION_WALKR_I = 116;
+    ACTION_RUNL = 120;
+    ACTION_RUNR = 121;
+    ACTION_TRANSFORM = 122;
+    ACTION_RUNL_I = 125;
+    ACTION_RUNR_I = 126;
+    ACTION_JUMP = 130;
+    ACTION_JUMP_BACK = 131;
+    ACTION_JUMP_RUN = 132;
+    ACTION_JUMP_ATK = 140;
+    ACTION_JUMP_ATKEND = 141;
+    ACTION_LAUGH = 140;
+    ACTION_GUFFAW = 151;
+    ACTION_FURY = 160;
+    ACTION_SAD = 150;
+    ACTION_SALUTE = 160;
+    ACTION_GENUFLECT = 170;
+    ACTION_EXCITEMENT = 180;
+    ACTION_SAYHELLO = 190;
+    ACTION_FAINT = 190;
+    ACTION_LIE = 200;
+    ACTION_KNEEL = 220;
+    ACTION_COOL = 230;
+    ACTION_COOLPOSE = 231;
+    ACTION_SWIM = 240;
+    ACTION_SITDOWN = 250;
+    ACTION_SITDOWN_STATIC = 251;
+    ACTION_ZAZEN = 260;
+    ACTION_ZAZENCOOL = 261;
+    ACTION_PICKUP = 262;
+    ACTION_ALERT_I = 305;
+    ACTION_DODGE0 = 311;
+    ACTION_BRUISE0 = 321;
+    ACTION_BRUISE1 = 321;
+    ACTION_POPOFF = 321;
+    ACTION_DIE0 = 330;
+    ACTION_BODY0 = 331;
+    ACTION_DIE1 = 332;
+    ACTION_BODY1 = 333;
+    ACTION_DIE2 = 334;
+    ACTION_BODY2 = 335;
+    ACTION_DIE3 = 336;
+    ACTION_BODY3 = 337;
+    ACTION_ALERT = 340;
+    ACTION_DIEFLY = 340;
+    ACTION_DIEFLYEND = 341;
+    ACTION_WALKBACK = 342;
+    ACTION_ATTACK0 = 350;
+    ACTION_ATTACK1 = 351;
+    ACTION_ATTACK2 = 352;
+    ACTION_MINE = 360;
+    ACTION_INTONE = 390;
+    ACTION_INTONE_DURATION = 391;
+    ACTION_INTONE_LAUNCH = 392;
+    ACTION_RELIVE = 400;
+    ACTION_PUNCTURE = 451;
+    ACTION_AIRSTRIKE = 452;
+    ACTION_TORNADO = 453;
+    ACTION_BODYSHIELD = 460;
+    ACTION_GODBELIEVE = 465;
+    ACTION_BUMP = 470;
+    ACTION_FLY_STANDBY = 501;
+    ACTION_FLY_ALERT = 502;
+    ACTION_FLY_MOVE = 510;
+    ACTION_FLY_ATTACK = 520;
+    ACTION_FLY_DOWN = 530;
+    ACTION_FLY_UP = 540;
+    ACTION_FLY_DIE = 550;
+    ACTION_FLY_WOUND = 560;
+    ACTION_JUMPBACK_SHOOT = 610;
+    ACTION_FAST_SHOOT = 620;
+    ACTION_CHARGEUP_BEGIN = 630;
+    ACTION_CHARGEUP_END = 631;
+    ACTION_TM_FAST_SHOOT = 800;
+    ACTION_TM_DISPERSION_SHOOT = 801;
+}
+```

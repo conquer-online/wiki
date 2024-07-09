@@ -36,7 +36,7 @@ MsgAction is used for a variety of actions, such as configuring the client durin
 | Val | Name | Description | Recipient | ID | Data |
 |:------|:--------|:--------|:--------|:--------|:--------|
 | 124 | CHANGE_DIR | Change facing direction | Server | [Hero ID](/network/identifiers.md) |  |
-| 126 | CHANGE_EMOTION | Change emoting action | Server | [Hero ID](/network/identifiers.md) | Emotion |
+| 126 | CHANGE_EMOTION | Change emoting action | Server | [Hero ID](/network/identifiers.md) | [Action](/constants/actions.md) |
 | 130 | CHANGE_MAP | Change map (portal) | Server | [Hero ID](/network/identifiers.md) | |
 | 137 | ENTER_MAP | Request hero location | Server | [Hero ID](/network/identifiers.md) | Map ID 🔶 |
 | 138 | GET_ITEMS | Load items on login | Server | [Hero ID](/network/identifiers.md) | |
