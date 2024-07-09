@@ -93,8 +93,8 @@ The table below is an abstract and directory of message types used in various pa
 | 1103 | [MsgMagicInfo](msgmagicinfo.md) | Magic spell the player can cast |
 | 1104 | [MsgFlushExp](msgflushexp.md) | Magic spell or skill experience update |
 | 1105 | [MsgMagicEffect](msgmagiceffect.md) | Cast a magical attack or effect |
-| 1106 | [MsgSyndicateAttributeInfo](msgsyndicateattributeinfo.md) |  |
-| 1107 | [MsgSyndicate](msgsyndicate.md) |  |
+| 1106 | [MsgSyndicateAttributeInfo](msgsyndicateattributeinfo.md) | Guild and guild member details |
+| 1107 | [MsgSyndicate](msgsyndicate.md) | Guild action request |
 | 1108 | [MsgItemInfoEx](msgiteminfoex.md) |  |
 | 1109 | [MsgNpcInfoEx](msgnpcinfoex.md) |  |
 | 1110 | [MsgMapInfo](msgmapinfo.md) |  |
