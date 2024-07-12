@@ -98,7 +98,7 @@ The table below is an abstract and directory of message types used in various pa
 | 1108 | [MsgItemInfoEx](msgiteminfoex.md) | Item details extended for a feature |
 | 1109 | [MsgNpcInfoEx](msgnpcinfoex.md) | NPC spawn with health |
 | 1110 | [MsgMapInfo](msgmapinfo.md) | Map type flags |
-| 1111 | [MsgMessageBoard](msgmessageboard.md) |  |
+| 1111 | [MsgMessageBoard](msgmessageboard.md) | Categorized message board |
 | 1112 | [MsgSynMemberInfo](msgsynmemberinfo.md) |  |
 | 1113 | [MsgDice](msgdice.md) |  |
 | 1114 | [MsgSyncAction](msgsyncaction.md) |  |
