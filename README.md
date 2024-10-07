@@ -3,6 +3,8 @@
 
 > The __live wiki__ can be found here: https://conquer-online.github.io/wiki/
 
+[![Deploy mdBook site to Pages](https://github.com/conquer-online/wiki/actions/workflows/mdbook.yml/badge.svg)](https://github.com/conquer-online/wiki/actions/workflows/mdbook.yml)
+
 # Introduction
 
 Welcome to the Conquer Online server development and client modifications wiki. This wiki is hosted publicly using Git, published using [mdBook](https://rust-lang.github.io/mdBook/index.html), and maintained by the open source community. Pages on this wiki cover topics such as server-client message types, cryptography, client file formats, constants, system overviews, and more.
