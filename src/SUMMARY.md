@@ -19,6 +19,7 @@
 - [Constants](constants/README.md)
     - [Action](constants/actions.md)
     - [Gem](constants/gem.md)
+    - [Hairstyles](constants/hairstyles.md)
     - [Hero Look](constants/herolook.md)
     - [Hero Profession](constants/heroprofession.md)
     - [Look Face](constants/lookface.md)
