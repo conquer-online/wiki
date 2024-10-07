@@ -1,6 +1,6 @@
 # Action
 
-Actions are emotes a role can perform. Not all roles can perform all types of actions. For monsters and players, this is determined by the [3dmotion.ini](/files/content/3dmotion.ini.md) file. For NPCs, this is determined by [npc.ini](/files/content/npc.ini.dat), which links with [3dmotion.ini](/files/content/3dmotion.ini.md) for `ACTION_STANDBY`, `ACTION_REST1`, and `ACTION_SAYHELLO`.
+Actions are emotes a role can perform. Not all roles can perform all types of actions. For monsters and players, this is determined by the [3dmotion.ini](../files/content/3dmotion.ini.md) file. For NPCs, this is determined by [npc.ini](../files/content/npc.ini.dat), which links with [3dmotion.ini](../files/content/3dmotion.ini.md) for `ACTION_STANDBY`, `ACTION_REST1`, and `ACTION_SAYHELLO`.
 
 ## Table of Contents
 

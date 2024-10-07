@@ -1,6 +1,6 @@
 # MsgEncryptCode
 
-This message is sent from the account server to the client when it first connects to initialize the [RC5](/security/rc5.md) cipher used for encrypting the player's password. The client then responds to this message with [MsgAccount](msgaccount.md). In later versions of the client, this message is sent but never utilized. This is to keep the account server compatible with older versions of the client / different games.
+This message is sent from the account server to the client when it first connects to initialize the [RC5](../../security/rc5.md) cipher used for encrypting the player's password. The client then responds to this message with [MsgAccount](msgaccount.md). In later versions of the client, this message is sent but never utilized. This is to keep the account server compatible with older versions of the client / different games.
 
 ## Table of Contents
 

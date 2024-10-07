@@ -21,18 +21,18 @@ In later versions of the client (around patch 5200), [MsgPlayerAttribInfo](msgpl
 |:-------|:--------|:--------|:--------|:--------|
 | 0  | UInt16 | [MsgSize](index.md#message-header) | Size of the message | 24 |
 | 2  | UInt16 | [MsgType](index.md#message-header) | Type of message | 1008 |
-| 4  | UInt32 | [Item ID](/network/identifiers.md) | Unique identifier for the item (unless someone else's item) | 1 |
-| 8  | UInt32 | [Item Type](/files/content/itemtype.dat.md) | Identifies the type of item | 730001 |
-| 12 | UInt16 | Amount | Current [durability](/algorithms/calculations/item-durability.md) or amount of the item | 10000 |
-| 14 | UInt16 | Max Amount | Total [durability](/algorithms/calculations/item-durability.md) or amount the item can have | 10000 |
+| 4  | UInt32 | [Item ID](../identifiers.md) | Unique identifier for the item (unless someone else's item) | 1 |
+| 8  | UInt32 | [Item Type](../../files/content/itemtype.dat.md) | Identifies the type of item | 730001 |
+| 12 | UInt16 | Amount | Current [durability](../../algorithms/calculations/item-durability.md) or amount of the item | 10000 |
+| 14 | UInt16 | Max Amount | Total [durability](../../algorithms/calculations/item-durability.md) or amount the item can have | 10000 |
 | 16 | Byte | [Action](#action-type) | How item info should be processed | 1 |
 | 17 | Byte | [Status](#item-status) | Condition bit flags on the item | 0 |
 | 18 | Byte | [Position](#item-position) | Position where the item appears | 0 |
-| 19 | Byte | [Socket](/algorithms/rates/item-sockets.md) 1 | The [gem](/constants/gem.md) in the first socket position | 0 |
-| 20 | Byte | [Socket](/algorithms/rates/item-sockets.md) 2 | The [gem](/constants/gem.md) in the second socket position | 0 |
+| 19 | Byte | [Socket](../../algorithms/rates/item-sockets.md) 1 | The [gem](../../constants/gem.md) in the first socket position | 0 |
+| 20 | Byte | [Socket](../../algorithms/rates/item-sockets.md) 2 | The [gem](../../constants/gem.md) in the second socket position | 0 |
 | 21 | Byte | Magic 1 | Reserved for rebirth magic effect | 0 |
 | 22 | Byte | Magic 2 | Reserved for an unknown purpose | 0 |
-| 23 | Byte | Magic 3 | Reserved for magical [plus](/algorithms/rates/item-composition.md) rating | 0 |
+| 23 | Byte | Magic 3 | Reserved for magical [plus](../../algorithms/rates/item-composition.md) rating | 0 |
 
 #### Action Type
 
@@ -102,18 +102,18 @@ enum ItemPosition {
 |:-------|:--------|:--------|:--------|:--------|
 | 0  | UInt16 | [MsgSize](index.md#message-header) | Size of the message | 30 |
 | 2  | UInt16 | [MsgType](index.md#message-header) | Type of message | 1008 |
-| 4  | UInt32 | [Item ID](/network/identifiers.md) | Unique identifier for the item (unless someone else's item) | 1 |
-| 8  | UInt32 | [Item Type](/files/content/itemtype.dat.md) | Identifies the type of item | 730001 |
-| 12 | UInt16 | Amount | Current [durability](/algorithms/calculations/item-durability.md) or amount of the item | 10000 |
-| 14 | UInt16 | Max Amount | Total [durability](/algorithms/calculations/item-durability.md) or amount the item can have | 10000 |
+| 4  | UInt32 | [Item ID](../identifiers.md) | Unique identifier for the item (unless someone else's item) | 1 |
+| 8  | UInt32 | [Item Type](../../files/content/itemtype.dat.md) | Identifies the type of item | 730001 |
+| 12 | UInt16 | Amount | Current [durability](../../algorithms/calculations/item-durability.md) or amount of the item | 10000 |
+| 14 | UInt16 | Max Amount | Total [durability](../../algorithms/calculations/item-durability.md) or amount the item can have | 10000 |
 | 16 | Byte | [Action](#action-type-1) | How item info should be processed | 1 |
 | 17 | Byte | [Status](#item-status-1) | Condition bit flags on the item | 0 |
 | 18 | Byte | [Position](#item-position-1) | Position where the item appears | 0 |
-| 19 | Byte | [Socket](/algorithms/rates/item-sockets.md) 1 | The [gem](/constants/gem.md) in the first socket position | 0 |
-| 20 | Byte | [Socket](/algorithms/rates/item-sockets.md) 2 | The [gem](/constants/gem.md) in the second socket position | 0 |
+| 19 | Byte | [Socket](../../algorithms/rates/item-sockets.md) 1 | The [gem](../../constants/gem.md) in the first socket position | 0 |
+| 20 | Byte | [Socket](../../algorithms/rates/item-sockets.md) 2 | The [gem](../../constants/gem.md) in the second socket position | 0 |
 | 21 | Byte | Magic 1 | Reserved for rebirth magic effect | 0 |
 | 22 | Byte | Magic 2 | Reserved for an unknown purpose | 0 |
-| 23 | Byte | Magic 3 | Reserved for magical [plus](/algorithms/rates/item-composition.md) rating | 0 |
+| 23 | Byte | Magic 3 | Reserved for magical [plus](../../algorithms/rates/item-composition.md) rating | 0 |
 | 24 | Byte | Bless | Reduced damage percentage taken by the character | 0 |
 | 25 | Byte | Enchant | Added max life for the character | 0 |
 | 26 | UInt32 | Data | Additional attributes for the item | 0 |
@@ -186,19 +186,19 @@ enum ItemPosition {
 |:-------|:--------|:--------|:--------|:--------|
 | 0  | UInt16 | [MsgSize](index.md#message-header) | Size of the message | 36 |
 | 2  | UInt16 | [MsgType](index.md#message-header) | Type of message | 1008 |
-| 4  | UInt32 | [Item ID](/network/identifiers.md) | Unique identifier for the item (unless someone else's item) | 1 |
-| 8  | UInt32 | [Item Type](/files/content/itemtype.dat.md) | Identifies the type of item | 730001 |
-| 12 | UInt16 | Amount | Current [durability](/algorithms/calculations/item-durability.md) or amount of the item | 10000 |
-| 14 | UInt16 | Max Amount | Total [durability](/algorithms/calculations/item-durability.md) or amount the item can have | 10000 |
+| 4  | UInt32 | [Item ID](../identifiers.md) | Unique identifier for the item (unless someone else's item) | 1 |
+| 8  | UInt32 | [Item Type](../../files/content/itemtype.dat.md) | Identifies the type of item | 730001 |
+| 12 | UInt16 | Amount | Current [durability](../../algorithms/calculations/item-durability.md) or amount of the item | 10000 |
+| 14 | UInt16 | Max Amount | Total [durability](../../algorithms/calculations/item-durability.md) or amount the item can have | 10000 |
 | 16 | Byte | [Action](#action-type-2) | How item info should be processed | 1 |
 | 17 | Byte | [Status](#item-status-2) | Condition bit flags on the item | 0 |
 | 18 | Byte | [Position](#item-position-2) | Position where the item appears | 0 |
-| 20 | UInt32 | [Socket](/algorithms/rates/item-sockets.md) Progress | Progress on creating a socket | 0 |
-| 24 | Byte | [Socket](/algorithms/rates/item-sockets.md) 1 | The [gem](/constants/gem.md) in the first socket position | 0 |
-| 25 | Byte | [Socket](/algorithms/rates/item-sockets.md) 2 | The [gem](/constants/gem.md) in the second socket position | 0 |
+| 20 | UInt32 | [Socket](../../algorithms/rates/item-sockets.md) Progress | Progress on creating a socket | 0 |
+| 24 | Byte | [Socket](../../algorithms/rates/item-sockets.md) 1 | The [gem](../../constants/gem.md) in the first socket position | 0 |
+| 25 | Byte | [Socket](../../algorithms/rates/item-sockets.md) 2 | The [gem](../../constants/gem.md) in the second socket position | 0 |
 | 26 | Byte | Magic 1 | Reserved for rebirth magic effect | 0 |
 | 27 | Byte | Magic 2 | Reserved for an unknown purpose | 0 |
-| 28 | Byte | Magic 3 | Reserved for magical [plus](/algorithms/rates/item-composition.md) rating | 0 |
+| 28 | Byte | Magic 3 | Reserved for magical [plus](../../algorithms/rates/item-composition.md) rating | 0 |
 | 29 | Byte | Bless | Reduced damage percentage taken by the character | 0 |
 | 30 | Byte | Enchant | Added max life for the character | 0 |
 | 32 | UInt32 | Data | Additional attributes for the item | 0 |
@@ -271,19 +271,19 @@ enum ItemPosition {
 |:-------|:--------|:--------|:--------|:--------|
 | 0  | UInt16 | [MsgSize](index.md#message-header) | Size of the message | 48 |
 | 2  | UInt16 | [MsgType](index.md#message-header) | Type of message | 1008 |
-| 4  | UInt32 | [Item ID](/network/identifiers.md) | Unique identifier for the item (unless someone else's item) | 1 |
-| 8  | UInt32 | [Item Type](/files/content/itemtype.dat.md) | Identifies the type of item | 730001 |
-| 12 | UInt16 | Amount | Current [durability](/algorithms/calculations/item-durability.md) or amount of the item | 10000 |
-| 14 | UInt16 | Max Amount | Total [durability](/algorithms/calculations/item-durability.md) or amount the item can have | 10000 |
+| 4  | UInt32 | [Item ID](../identifiers.md) | Unique identifier for the item (unless someone else's item) | 1 |
+| 8  | UInt32 | [Item Type](../../files/content/itemtype.dat.md) | Identifies the type of item | 730001 |
+| 12 | UInt16 | Amount | Current [durability](../../algorithms/calculations/item-durability.md) or amount of the item | 10000 |
+| 14 | UInt16 | Max Amount | Total [durability](../../algorithms/calculations/item-durability.md) or amount the item can have | 10000 |
 | 16 | Byte | [Action](#action-type-2) | How item info should be processed | 1 |
 | 17 | Byte | [Status](#item-status-2) | Condition bit flags on the item | 0 |
 | 18 | Byte | [Position](#item-position-2) | Position where the item appears | 0 |
-| 19 | UInt32 | [Socket](/algorithms/rates/item-sockets.md) Progress | Progress on creating a socket | 0 |
-| 23 | Byte | [Socket](/algorithms/rates/item-sockets.md) 1 | The [gem](/constants/gem.md) in the first socket position | 0 |
-| 24 | Byte | [Socket](/algorithms/rates/item-sockets.md) 2 | The [gem](/constants/gem.md) in the second socket position | 0 |
+| 19 | UInt32 | [Socket](../../algorithms/rates/item-sockets.md) Progress | Progress on creating a socket | 0 |
+| 23 | Byte | [Socket](../../algorithms/rates/item-sockets.md) 1 | The [gem](../../constants/gem.md) in the first socket position | 0 |
+| 24 | Byte | [Socket](../../algorithms/rates/item-sockets.md) 2 | The [gem](../../constants/gem.md) in the second socket position | 0 |
 | 25 | Byte | Magic 1 | Reserved for rebirth magic effect | 0 |
 | 26 | Byte | Magic 2 | Reserved for an unknown purpose | 0 |
-| 27 | Byte | Magic 3 | Reserved for magical [plus](/algorithms/rates/item-composition.md) rating | 0 |
+| 27 | Byte | Magic 3 | Reserved for magical [plus](../../algorithms/rates/item-composition.md) rating | 0 |
 | 28 | Byte | Bless | Reduced damage percentage taken by the character | 0 |
 | 29 | Bool | Bound | True if the item can't be traded | 0 | 
 | 30 | Byte | Enchant | Added max life for the character | 0 |
@@ -291,7 +291,7 @@ enum ItemPosition {
 | 36 | Bool | Suspicious | Marked as suspicious for trading | 0 |
 | 38 | Bool | Locked | Locked from being dropped or traded | 0 |
 | 40 | Byte | [Color](#item-color) | Color modifier for the item | 3 |
-| 44 | UInt32 | Magic 3 Progress | Progress towards magical [plus](/algorithms/rates/item-composition.md) rating | 0 |
+| 44 | UInt32 | Magic 3 Progress | Progress towards magical [plus](../../algorithms/rates/item-composition.md) rating | 0 |
 
 #### Action Type
 

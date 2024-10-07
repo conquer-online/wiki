@@ -20,8 +20,8 @@ The client also validates the IP address and will reject localhost (127.x.x.x). 
 |:-------|:--------|:--------|:--------|:--------|
 | 0  | UInt16 | [MsgSize](index.md#message-header) | Size of the message | 32 |
 | 2  | UInt16 | [MsgType](index.md#message-header) | Type of message | 1055 |
-| 4  | UInt32 | [Account ID](/network/identifiers.md) | Account id from the account server | 1 |
-| 8  | UInt32 | Data | [Encryption key](/security/tq.md) generator parameter | 6351601 |
+| 4  | UInt32 | [Account ID](../identifiers.md) | Account id from the account server | 1 |
+| 8  | UInt32 | Data | [Encryption key](../../security/tq.md) generator parameter | 6351601 |
 | 12 | Char[16] | Info | Game server's IP address | 192.168.1.2 |
 | 28 | UInt32 | Port | Game server's port | 5816 |
 
@@ -58,8 +58,8 @@ The client also validates the IP address and will reject localhost (127.x.x.x). 
 |:-------|:--------|:--------|:--------|:--------|
 | 0  | UInt16 | [MsgSize](index.md#message-header) | Size of the message | 32 |
 | 2  | UInt16 | [MsgType](index.md#message-header) | Type of message | 1055 |
-| 4  | UInt32 | [Account ID](/network/identifiers.md) | Account id from the account server | 1 |
-| 8  | UInt32 | Data | [Encryption key](/security/tq.md) generator parameter | 6351601 |
+| 4  | UInt32 | [Account ID](../identifiers.md) | Account id from the account server | 1 |
+| 8  | UInt32 | Data | [Encryption key](../../security/tq.md) generator parameter | 6351601 |
 | 12 | Char[16] | Info | Game server's IP address | 192.168.1.2 |
 | 28 | UInt32 | Port | Game server's port | 5816 |
 
@@ -103,8 +103,8 @@ The client also validates the IP address and will reject localhost (127.x.x.x). 
 |:-------|:--------|:--------|:--------|:--------|
 | 0  | UInt16 | [MsgSize](index.md#message-header) | Size of the message | 52 |
 | 2  | UInt16 | [MsgType](index.md#message-header) | Type of message | 1055 |
-| 4  | UInt32 | [Account ID](/network/identifiers.md) | Account id from the account server | 1 |
-| 8  | UInt32 | Data | [Encryption key](/security/tq.md) generator parameter | 6351601 |
+| 4  | UInt32 | [Account ID](../identifiers.md) | Account id from the account server | 1 |
+| 8  | UInt32 | Data | [Encryption key](../../security/tq.md) generator parameter | 6351601 |
 | 12 | UInt32 | Port | Game server's port | 5816 |
 | 20 | Char[32] | Info | Game server's IP address | 192.168.1.2 |
 
@@ -122,7 +122,7 @@ The client also validates the IP address and will reject localhost (127.x.x.x). 
 
 ✅ Verified (Client)
 
-The following mapping is copied from [Cn_Res.ini](/files/content/cn_res.ini.md).
+The following mapping is copied from [Cn_Res.ini](../../files/content/cn_res.ini.md).
 
 ```
 000=Changing Map

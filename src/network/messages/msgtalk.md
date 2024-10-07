@@ -31,8 +31,8 @@ When constructing the string packer, character names remain the same length (max
 | 4  | Int32 | Text Color | [ARGB32](https://en.wikipedia.org/wiki/RGBA_color_model) color of the text | 00FF0000 |
 | 8  | UInt16 | [Text Attribute](#text-attribute) | Defines where the text appears | 2000 |
 | 10 | Uint16 | [Text Style](#text-style) | Defines how the text appears | 0 |
-| 12 | UInt32 | [Local Time](/network/timestamp.md) | Hours and minutes | 1241 |
-| 16 | [NetStringPacker](/network/stringpacker.md) | Strings | Group of length prefixed strings | |
+| 12 | UInt32 | [Local Time](../timestamp.md) | Hours and minutes | 1241 |
+| 16 | [NetStringPacker](../stringpacker.md) | Strings | Group of length prefixed strings | |
 
 #### NetStringPacker Fields
 
@@ -113,10 +113,10 @@ enum TextStyle {
 | 4  | Int32 | Text Color | [ARGB32](https://en.wikipedia.org/wiki/RGBA_color_model) color of the text | 00FF0000 |
 | 8  | UInt16 | [Text Attribute](#text-attribute-1) | Defines where the text appears | 2000 |
 | 10 | Uint16 | [Text Style](#text-style-1) | Defines how the text appears | 0 |
-| 12 | UInt32 | [Local Time](/network/timestamp.md) | Hours and minutes | 1241 |
-| 16 | UInt32 | Hearer [View](/algorithms/calculations/roleview.md) | Character view mesh for the hearer | 501002 |
-| 20 | UInt32 | Speaker [View](/algorithms/calculations/roleview.md) | Character view mesh for the speaker | 501002 |
-| 24 | [NetStringPacker](/network/stringpacker.md) | Strings | Group of length prefixed strings | |
+| 12 | UInt32 | [Local Time](../timestamp.md) | Hours and minutes | 1241 |
+| 16 | UInt32 | Hearer [View](../../algorithms/calculations/roleview.md) | Character view mesh for the hearer | 501002 |
+| 20 | UInt32 | Speaker [View](../../algorithms/calculations/roleview.md) | Character view mesh for the speaker | 501002 |
+| 24 | [NetStringPacker](../stringpacker.md) | Strings | Group of length prefixed strings | |
 
 #### NetStringPacker Fields
 
@@ -198,10 +198,10 @@ enum TextStyle {
 | 4  | Int32 | Text Color | [ARGB32](https://en.wikipedia.org/wiki/RGBA_color_model) color of the text | 00FF0000 |
 | 8  | UInt16 | [Text Attribute](#text-attribute-2) | Defines where the text appears | 2000 |
 | 10 | Uint16 | [Text Style](#text-style-2) | Defines how the text appears | 0 |
-| 12 | UInt32 | [Local Time](/network/timestamp.md) | Hours and minutes | 1241 |
-| 16 | UInt32 | Hearer [View](/algorithms/calculations/roleview.md) | Character view mesh for the hearer | 501002 |
-| 20 | UInt32 | Speaker [View](/algorithms/calculations/roleview.md) | Character view mesh for the speaker | 501002 |
-| 24 | [NetStringPacker](/network/stringpacker.md) | Strings | Group of length prefixed strings | |
+| 12 | UInt32 | [Local Time](../timestamp.md) | Hours and minutes | 1241 |
+| 16 | UInt32 | Hearer [View](../../algorithms/calculations/roleview.md) | Character view mesh for the hearer | 501002 |
+| 20 | UInt32 | Speaker [View](../../algorithms/calculations/roleview.md) | Character view mesh for the speaker | 501002 |
+| 24 | [NetStringPacker](../stringpacker.md) | Strings | Group of length prefixed strings | |
 
 #### NetStringPacker Fields
 
@@ -286,14 +286,14 @@ enum TextStyle {
 |:-------|:--------|:--------|:--------|:--------|
 | 0  | UInt16 | [MsgSize](index.md#message-header) | Size of the message | 56 |
 | 2  | UInt16 | [MsgType](index.md#message-header) | Type of message | 1004 |
-| 4  | UInt32 | [System Time](/network/timestamp.md) | Milliseconds of system uptime | 1579535985 |
+| 4  | UInt32 | [System Time](../timestamp.md) | Milliseconds of system uptime | 1579535985 |
 | 8  | Int32 | Text Color | [ARGB32](https://en.wikipedia.org/wiki/RGBA_color_model) color of the text | 00FF0000 |
 | 12 | UInt16 | [Text Attribute](#text-attribute-1) | Defines where the text appears | 2000 |
 | 14 | Uint16 | [Text Style](#text-style-1) | Defines how the text appears | 0 |
-| 16 | UInt32 | [Local Time](/network/timestamp.md) | Hours and minutes | 1241 |
-| 20 | UInt32 | Hearer [View](/algorithms/calculations/roleview.md) | Character view mesh for the hearer | 501002 |
-| 24 | UInt32 | Speaker [View](/algorithms/calculations/roleview.md) | Character view mesh for the speaker | 501002 |
-| 28 | [NetStringPacker](/network/stringpacker.md) | Strings | Group of length prefixed strings | |
+| 16 | UInt32 | [Local Time](../timestamp.md) | Hours and minutes | 1241 |
+| 20 | UInt32 | Hearer [View](../../algorithms/calculations/roleview.md) | Character view mesh for the hearer | 501002 |
+| 24 | UInt32 | Speaker [View](../../algorithms/calculations/roleview.md) | Character view mesh for the speaker | 501002 |
+| 28 | [NetStringPacker](../stringpacker.md) | Strings | Group of length prefixed strings | |
 
 #### NetStringPacker Fields
 

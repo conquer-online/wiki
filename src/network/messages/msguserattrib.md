@@ -2,7 +2,7 @@
 
 This message is sent by the game server to update one or more numeric user attributes in the game client. It can target the hero or another player on the game map.
 
-Of the possibly attribute types, the user status attribute is one of the more complicated types. Statuses are a bitmap of effects that can be placed on a hero or entity, and are loaded from the [StatusEffect.ini](/files/content/statuseffect.ini.md) file. Some examples of statuses found in the game include being poisoned, lucky, shielded, etc. They're also used for PK event haloes in later versions.
+Of the possibly attribute types, the user status attribute is one of the more complicated types. Statuses are a bitmap of effects that can be placed on a hero or entity, and are loaded from the [StatusEffect.ini](../../files/content/statuseffect.ini.md) file. Some examples of statuses found in the game include being poisoned, lucky, shielded, etc. They're also used for PK event haloes in later versions.
 
 ## Table of Contents
 
@@ -19,7 +19,7 @@ Of the possibly attribute types, the user status attribute is one of the more co
 |:-------|:--------|:--------|:--------|:--------|
 | 0  | UInt16 | [MsgSize](index.md#message-header) | Size of the message | 24 |
 | 2  | UInt16 | [MsgType](index.md#message-header) | Type of message | 1017 |
-| 4  | UInt32 | [Hero ID](/network/identifiers.md) | Unique identifier for the character | 1000000 |
+| 4  | UInt32 | [Hero ID](../identifiers.md) | Unique identifier for the character | 1000000 |
 | 8  | UInt32 | AttributeNum | Amount of attributes to update | 1 |
 | 12 | [UserAttrib](#userattrib-definition)[] | Attributes | Attributes list | See below |
 
@@ -114,7 +114,7 @@ enum UserStatusFlags {
 |:-------|:--------|:--------|:--------|:--------|
 | 0  | UInt16 | [MsgSize](index.md#message-header) | Size of the message | 24 |
 | 2  | UInt16 | [MsgType](index.md#message-header) | Type of message | 1017 |
-| 4  | UInt32 | [Hero ID](/network/identifiers.md) | Unique identifier for the character | 1000000 |
+| 4  | UInt32 | [Hero ID](../identifiers.md) | Unique identifier for the character | 1000000 |
 | 8  | UInt32 | AttributeNum | Amount of attributes to update | 1 |
 | 12 | [UserAttrib](#userattrib-definition)[] | Attributes | Attributes list | See below |
 

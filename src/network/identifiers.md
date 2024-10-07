@@ -27,8 +27,8 @@ The game server has the following ranges statically defined.
 | 0400001 | 0000499999 | Monster | World monster spawn |
 | 0500001 | 0000599999 | Pet | Syndicate monster spawn |
 | 0700001 | 0000799999 | Call Pet | Player monster spawn |
-| 0900001 | 0000989999 | Magic Trap | Player spell trap from [MsgMapItem](/network/messages/msgmapitem.md) |
-| 0990001 | 0000999999 | System Trap | System trap from [MsgMapItem](/network/messages/msgmapitem.md) |
+| 0900001 | 0000989999 | Magic Trap | Player spell trap from [MsgMapItem](messages/msgmapitem.md) |
+| 0990001 | 0000999999 | System Trap | System trap from [MsgMapItem](messages/msgmapitem.md) |
 | 1000000 | 3999999999 | Hero | Player character |
 
 Some identifiers, such as items, are incremental across a 32-bit unsigned integer range.

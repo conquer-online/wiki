@@ -19,9 +19,9 @@ Fireworks are an interesting type in this packet, as the way the client processe
 |:-------|:--------|:--------|:--------|:--------|
 | 0  | UInt16 | [MsgSize](index.md#message-header) | Size of the message | 10 |
 | 2  | UInt16 | [MsgType](index.md#message-header) | Type of message | 1015 |
-| 4  | UInt32 | Data | A parameter, target [role ID](/network/identifiers.md), or coordinates | 1000001 |
+| 4  | UInt32 | Data | A parameter, target [role ID](../identifiers.md), or coordinates | 1000001 |
 | 8  | Byte | [Action Type](#action-type) | The type of contents in the message | 6 |
-| 9 | [NetStringPacker](/network/stringpacker.md) | Strings | Group of length prefixed strings | |
+| 9 | [NetStringPacker](../stringpacker.md) | Strings | Group of length prefixed strings | |
 
 #### Action Type
 
@@ -31,13 +31,13 @@ Fireworks are an interesting type in this packet, as the way the client processe
 
 | Val | Name | Description | Recipient | Data | NetStringPacker |
 |:------|:--------|:--------|:--------|:--------|:--------|
-| 1  | FIREWORKS | Spawn fireworks | Client | [Hero ID](/network/identifiers.md) | 1 4 Test |
-| 3  | CHANGE_SYN | Update guild name | Client | [Guild ID](/network/identifiers.md) | 1 4 Name |
-| 6  | MATE | Update mate | Client | [Hero ID](/network/identifiers.md) | 1 4 Mate |
+| 1  | FIREWORKS | Spawn fireworks | Client | [Hero ID](../identifiers.md) | 1 4 Test |
+| 3  | CHANGE_SYN | Update guild name | Client | [Guild ID](../identifiers.md) | 1 4 Name |
+| 6  | MATE | Update mate | Client | [Hero ID](../identifiers.md) | 1 4 Mate |
 | 9  | MAP_EFFECT | Spawn effect at coordinates | Client | `LOW:` X `HIGH:` Y | 1 7 rainbow |
-| 10 | ROLE_EFFECT | Spawn effect on role | Client | [Role ID](/network/identifiers.md) | 1 9 warrior-s |
+| 10 | ROLE_EFFECT | Spawn effect on role | Client | [Role ID](../identifiers.md) | 1 9 warrior-s |
 | 11 | MEMBER_LIST | Get guild member list | Server | Index | 1 6 Member 🔶 |
-| 16 | QUERY_MATE | Get mate's name | Server | [Hero ID](/network/identifiers.md) | 1 4 Mate 🔶 |
+| 16 | QUERY_MATE | Get mate's name | Server | [Hero ID](../identifiers.md) | 1 4 Mate 🔶 |
 | 17 | ADD_DICE_PLAYER | Add player / open game | Server | Dice Game ID 🔶 | 1 6 Player |
 | 18 | DEL_DICE_PLAYER | Delete player / close game | Server | Dice Game ID | 1 6 Player |
 | 19 | DICE_BONUS | Update money bonus | Client | Money | 1 6 Player |
@@ -53,9 +53,9 @@ Fireworks are an interesting type in this packet, as the way the client processe
 |:-------|:--------|:--------|:--------|:--------|
 | 0  | UInt16 | [MsgSize](index.md#message-header) | Size of the message | 10 |
 | 2  | UInt16 | [MsgType](index.md#message-header) | Type of message | 1015 |
-| 4  | UInt32 | Data | A parameter, target [role ID](/network/identifiers.md), or coordinates | 1000001 |
+| 4  | UInt32 | Data | A parameter, target [role ID](../identifiers.md), or coordinates | 1000001 |
 | 8  | Byte | [Action Type](#action-type-1) | The type of contents in the message | 6 |
-| 9 | [NetStringPacker](/network/stringpacker.md) | Strings | Group of length prefixed strings | |
+| 9 | [NetStringPacker](../stringpacker.md) | Strings | Group of length prefixed strings | |
 
 #### Action Type
 
@@ -65,13 +65,13 @@ Fireworks are an interesting type in this packet, as the way the client processe
 
 | Val | Name | Description | Recipient | Data | NetStringPacker |
 |:------|:--------|:--------|:--------|:--------|:--------|
-| 1  | FIREWORKS | Spawn fireworks | Client | [Hero ID](/network/identifiers.md) | 1 4 Test |
-| 3  | CHANGE_SYN | Update guild name | Client | [Guild ID](/network/identifiers.md) | 1 4 Name |
-| 6  | MATE | Update mate | Client | [Hero ID](/network/identifiers.md) | 1 4 Mate |
+| 1  | FIREWORKS | Spawn fireworks | Client | [Hero ID](../identifiers.md) | 1 4 Test |
+| 3  | CHANGE_SYN | Update guild name | Client | [Guild ID](../identifiers.md) | 1 4 Name |
+| 6  | MATE | Update mate | Client | [Hero ID](../identifiers.md) | 1 4 Mate |
 | 9  | MAP_EFFECT | Spawn effect at coordinates | Client | `LOW:` X `HIGH:` Y | 1 7 rainbow |
-| 10 | ROLE_EFFECT | Spawn effect on role | Client | [Role ID](/network/identifiers.md) | 1 9 warrior-s |
+| 10 | ROLE_EFFECT | Spawn effect on role | Client | [Role ID](../identifiers.md) | 1 9 warrior-s |
 | 11 | MEMBER_LIST | Get guild member list | Server | Index | 1 6 Member 🔶 |
-| 16 | QUERY_MATE | Get mate's name | Server | [Hero ID](/network/identifiers.md) | 1 4 Mate 🔶 |
+| 16 | QUERY_MATE | Get mate's name | Server | [Hero ID](../identifiers.md) | 1 4 Mate 🔶 |
 | 17 | ADD_DICE_PLAYER | Add player / open game | Server | Dice Game ID 🔶 | 1 6 Player |
 | 18 | DEL_DICE_PLAYER | Delete player / close game | Server | Dice Game ID | 1 6 Player |
 | 19 | DICE_BONUS | Update money bonus | Client | Money | 1 6 Player |

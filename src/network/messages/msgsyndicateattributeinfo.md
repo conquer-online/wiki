@@ -17,7 +17,7 @@ This game server message is sent to the client to display details about a guild 
 |:-------|:--------|:--------|:--------|:--------|
 | 0  | UInt16 | [MsgSize](index.md#message-header) | Size of the message | 40 |
 | 2  | UInt16 | [MsgType](index.md#message-header) | Type of message | 1106 |
-| 4  | UInt32 | Syndicate ID | [Unique identifier](/network/identifiers.md) of the player | 1000000 |
+| 4  | UInt32 | Syndicate ID | [Unique identifier](../identifiers.md) of the player | 1000000 |
 | 8  | UInt32 | Proffer | Silver amount offered as donation | 10000 |
 | 12 | UInt32 | Fund | Total silver fund | 10000 |
 | 16 | UInt32 | Population | Number of guild members | 1 |
@@ -47,7 +47,7 @@ enum SyndicateRank {
 |:-------|:--------|:--------|:--------|:--------|
 | 0  | UInt16 | [MsgSize](index.md#message-header) | Size of the message | 92 |
 | 2  | UInt16 | [MsgType](index.md#message-header) | Type of message | 1106 |
-| 4  | UInt32 | Syndicate ID | [Unique identifier](/network/identifiers.md) of the player | 1000000 |
+| 4  | UInt32 | Syndicate ID | [Unique identifier](../identifiers.md) of the player | 1000000 |
 | 8  | UInt32 | Proffer | Silver amount offered as donation | 10000 |
 | 12 | UInt64 | Fund | Total silver fund | 10000 |
 | 20 | UInt32 | EMoney Fund | Total CPs fund | 0 |

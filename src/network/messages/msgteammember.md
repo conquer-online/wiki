@@ -27,8 +27,8 @@ This message is sent to the client to update the team member list. It can includ
 | Pos | Type | Name | Description | Example |
 |:----|:--------|:--------|:--------|:--------|
 | 0 | Char[16] | Name | Hero name | Player |
-| 16 | UInt32 | ID | [Hero ID](/network/identifiers.md) of the member | 1000001 |
-| 20 | UInt32 | [Look Face](/constants/lookface.md) | Mesh of the entity | 501002 |
+| 16 | UInt32 | ID | [Hero ID](../identifiers.md) of the member | 1000001 |
+| 20 | UInt32 | [Look Face](../../constants/lookface.md) | Mesh of the entity | 501002 |
 | 24 | UInt16 | Max HP | Total HP the member can have | 92 |
 | 26 | UInt16 | HP | Total HP the member has | 54 |
 

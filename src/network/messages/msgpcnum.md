@@ -16,5 +16,5 @@ This client message is sent to the account server after receiving [MsgConnectEx]
 |:-------|:--------|:--------|:--------|:--------|
 | 0  | UInt16 | [MsgSize](index.md#message-header) | Size of the message | 52 |
 | 2  | UInt16 | [MsgType](index.md#message-header) | Type of message | 1100 |
-| 4  | UInt32 | [Account ID](/network/identifiers.md) | Account id from the account server | 1 |
+| 4  | UInt32 | [Account ID](../identifiers.md) | Account id from the account server | 1 |
 | 8  | Char[40] | Mac address | Mac address for the client interface | 0A0B0C0D0E0F |

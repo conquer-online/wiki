@@ -52,9 +52,9 @@ Similar to other messages, MsgInteract also contains types that overlap with oth
 |:-------|:--------|:--------|:--------|:--------|
 | 0  | UInt16 | [MsgSize](index.md#message-header) | Size of the message | 28 |
 | 2  | UInt16 | [MsgType](index.md#message-header) | Type of message | 1022 |
-| 4  | UInt32 | [System Time](/network/timestamps.md) | Milliseconds of system uptime | 10000 |
-| 8  | UInt32 | Sender | [Role ID](/network/identifiers.md) of the initiator | 1000000 |
-| 12 | UInt32 | Target | [Role ID](/network/identifiers.md) of the target | 1000001 |
+| 4  | UInt32 | [System Time](../timestamps.md) | Milliseconds of system uptime | 10000 |
+| 8  | UInt32 | Sender | [Role ID](../identifiers.md) of the initiator | 1000000 |
+| 12 | UInt32 | Target | [Role ID](../identifiers.md) of the target | 1000001 |
 | 16 | UInt16 | X | X coordinate of the interaction | 320 |
 | 18 | UInt16 | Y | Y coordinate of the interaction | 460 |
 | 20 | UInt32 | [Type](#interaction-type) | How to processes the message | 14 |
@@ -72,11 +72,11 @@ Similar to other messages, MsgInteract also contains types that overlap with oth
 | 8  | COURT  | Propose to a player | Server | |
 | 9  | MARRY  | Accept a proposal | Server | |
 | 14 | KILL | Confirms kill of an entity | Client | Count |
-| 21 | MAGIC_ATTACK | [Magical attack](/algorithms/calculations/damage.md) | Server | `HIGH:` MagicType |
-| 23 | REFLECT_WEAPON | Reflect a [physical attack](/algorithms/calculations/damage.md) | Client | Damage |
+| 21 | MAGIC_ATTACK | [Magical attack](../../algorithms/calculations/damage.md) | Server | `HIGH:` MagicType |
+| 23 | REFLECT_WEAPON | Reflect a [physical attack](../../algorithms/calculations/damage.md) | Client | Damage |
 | 24 | BUMP | Bumped from dash | Client | Direction |
 | 25 | SHOOT | Shoot projectile | Server | Damage 🔶 |
-| 26 | REFLECT_MAGIC | Reflect a [magical attack](/algorithms/calculations/damage.md) | Client | Damage |
+| 26 | REFLECT_MAGIC | Reflect a [magical attack](../../algorithms/calculations/damage.md) | Client | Damage |
 
 ## Patch 5017
 
@@ -88,9 +88,9 @@ Similar to other messages, MsgInteract also contains types that overlap with oth
 |:-------|:--------|:--------|:--------|:--------|
 | 0  | UInt16 | [MsgSize](index.md#message-header) | Size of the message | 28 |
 | 2  | UInt16 | [MsgType](index.md#message-header) | Type of message | 1022 |
-| 4  | UInt32 | [System Time](/network/timestamps.md) | Milliseconds of system uptime | 10000 |
-| 8  | UInt32 | Sender | [Role ID](/network/identifiers.md) of the initiator | 1000000 |
-| 12 | UInt32 | Target | [Role ID](/network/identifiers.md) of the target | 1000001 |
+| 4  | UInt32 | [System Time](../timestamps.md) | Milliseconds of system uptime | 10000 |
+| 8  | UInt32 | Sender | [Role ID](../identifiers.md) of the initiator | 1000000 |
+| 12 | UInt32 | Target | [Role ID](../identifiers.md) of the target | 1000001 |
 | 16 | UInt16 | X | X coordinate of the interaction | 320 |
 | 18 | UInt16 | Y | Y coordinate of the interaction | 460 |
 | 20 | UInt32 | [Type](#interaction-type-1) | How to processes the message | 14 |
@@ -109,9 +109,9 @@ Similar to other messages, MsgInteract also contains types that overlap with oth
 | 8  | COURT  | Propose to a player | Server | | |
 | 9  | MARRY  | Accept a proposal | Server | | | 
 | 14 | KILL | Confirms kill of an entity | Client | Count | |
-| 21 | MAGIC_ATTACK | [Magical attack](/algorithms/calculations/damage.md) | Server | `HIGH:` MagicType |
-| 23 | REFLECT_WEAPON | Reflect a [physical attack](/algorithms/calculations/damage.md) | Client | Damage |
+| 21 | MAGIC_ATTACK | [Magical attack](../../algorithms/calculations/damage.md) | Server | `HIGH:` MagicType |
+| 23 | REFLECT_WEAPON | Reflect a [physical attack](../../algorithms/calculations/damage.md) | Client | Damage |
 | 24 | BUMP | Bumped from dash | Client | Direction | |
 | 25 | SHOOT | Shoot projectile | Server | Damage 🔶 | |
-| 26 | REFLECT_MAGIC | Reflect a [magical attack](/algorithms/calculations/damage.md) | Client | Damage |
+| 26 | REFLECT_MAGIC | Reflect a [magical attack](../../algorithms/calculations/damage.md) | Client | Damage |
 | 30 | JAR_PROGRESS | Cloud Saint Jar count | Server | 0 | Count 🔶 |

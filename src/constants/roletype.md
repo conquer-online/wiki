@@ -1,6 +1,6 @@
 # Role Type
 
-Roles in Conquer Online are entities such as [NPCs](/renderers/npc.md), [Monsters](/renderers/monster.md), and [Heroes](/renderers/hero.md) (the players). Depending on the role, the game client interprets left click actions differently. The server may use these constants to determine how [MsgInteract](/network/messages/msginteract.md) is processed, or how an NPC is spawned using [MsgNpcInfo](/network/messages/msgnpcinfo.md).
+Roles in Conquer Online are entities such as [NPCs](../renderers/npc.md), [Monsters](../renderers/monster.md), and [Heroes](../renderers/hero.md) (the players). Depending on the role, the game client interprets left click actions differently. The server may use these constants to determine how [MsgInteract](../network/messages/msginteract.md) is processed, or how an NPC is spawned using [MsgNpcInfo](../network/messages/msgnpcinfo.md).
 
 ## Table of Contents
 

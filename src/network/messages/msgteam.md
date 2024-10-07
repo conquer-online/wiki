@@ -17,7 +17,7 @@ This message performs simple team commands at the request of a client for managi
 | 0 | UInt16 | [MsgSize](index.md#message-header) | Size of the message | 8 |
 | 2 | UInt16 | [MsgType](index.md#message-header) | Type of message | 1023 |
 | 4 | UInt32 | [Action](#action-type) | The command being requested | 1 |
-| 8 | UInt32 | Player | [Hero ID](/network/identifiers.md) of the target | 1000001 |
+| 8 | UInt32 | Player | [Hero ID](../identifiers.md) of the target | 1000001 |
 
 #### Action Type
 

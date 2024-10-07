@@ -1,6 +1,6 @@
 # StatusEffect.ini
 
-This file is used to map effects to player statuses for [MsgUserInfo](/network/messages/msguserinfo.md). The index mapping can be found on that page, but the file structure for mapping those effects can be found below. Though labeled as an INI file, it doesn't follow the syntax. Each entry is space delimitated and line separated.
+This file is used to map effects to player statuses for [MsgUserInfo](../../network/messages/msguserinfo.md). The index mapping can be found on that page, but the file structure for mapping those effects can be found below. Though labeled as an INI file, it doesn't follow the syntax. Each entry is space delimitated and line separated.
 
 ## Table of Contents
 

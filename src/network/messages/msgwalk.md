@@ -23,8 +23,8 @@ This message is sent from the game client when the player moves on the ground in
 |:-------|:--------|:--------|:--------|:--------|
 | 0  | UInt16 | [MsgSize](index.md#message-header) | Size of the message | 10 |
 | 2  | UInt16 | [MsgType](index.md#message-header) | Type of message | 1005 |
-| 4  | UInt32 | [Hero ID](/network/identifiers.md) | Unique identifier for the character | 1000000 |
-| 8  | Byte | [Direction](/algorithms/calculations/direction.md) | Movement direction | 0 |
+| 4  | UInt32 | [Hero ID](../identifiers.md) | Unique identifier for the character | 1000000 |
+| 8  | Byte | [Direction](../../algorithms/calculations/direction.md) | Movement direction | 0 |
 | 9  | Bool | Run | True if the player is running | 1 |
 
 ## Patch 5165
@@ -37,8 +37,8 @@ This message is sent from the game client when the player moves on the ground in
 |:-------|:--------|:--------|:--------|:--------|
 | 0  | UInt16 | [MsgSize](index.md#message-header) | Size of the message | 16 |
 | 2  | UInt16 | [MsgType](index.md#message-header) | Type of message | 1005 |
-| 4  | UInt32 | [Direction](/algorithms/calculations/direction.md) | Movement direction | 0 |
-| 8  | UInt32 | [Hero ID](/network/identifiers.md) | Unique identifier for the character | 1000000 |
+| 4  | UInt32 | [Direction](../../algorithms/calculations/direction.md) | Movement direction | 0 |
+| 8  | UInt32 | [Hero ID](../identifiers.md) | Unique identifier for the character | 1000000 |
 | 12 | UInt32 | [Movement Mode](#movement-modes) | Type of ground movement | 1 |
 
 #### Movement Modes
@@ -64,11 +64,11 @@ enum MovementModes {
 |:-------|:--------|:--------|:--------|:--------|
 | 0  | UInt16 | [MsgSize](index.md#message-header) | Size of the message | 24 |
 | 2  | UInt16 | [MsgType](index.md#message-header) | Type of message | 10005 |
-| 4  | UInt32 | [Direction](/algorithms/calculations/direction.md) | Movement direction | 0 |
-| 8  | UInt32 | [Hero ID](/network/identifiers.md) | Unique identifier for the character | 1000000 |
+| 4  | UInt32 | [Direction](../../algorithms/calculations/direction.md) | Movement direction | 0 |
+| 8  | UInt32 | [Hero ID](../identifiers.md) | Unique identifier for the character | 1000000 |
 | 12 | UInt32 | [Movement Mode](#movement-modes-1) | Type of ground movement | 1 |
-| 16 | UInt32 | [System Time](/network/timestamps.md) | Milliseconds of system uptime | 10000 |
-| 20 | UInt32 | [Map ID](/files/content/gamemap.dat.md) | Map identifier | 1002 |
+| 16 | UInt32 | [System Time](../timestamps.md) | Milliseconds of system uptime | 10000 |
+| 20 | UInt32 | [Map ID](../../files/content/gamemap.dat.md) | Map identifier | 1002 |
 
 #### Movement Modes
 
@@ -101,11 +101,11 @@ enum MovementModes {
 
 | Type | Name | ID | Description | Example |
 |:-------|:--------|:--------|:--------|:--------|
-| UInt32 | [direction](/algorithms/calculations/direction.md) | 1 | Movement direction | 0 |
-| UInt32 | [hero_id](/network/identifiers.md) | 2 | Unique identifier for the character | 1000000 |
+| UInt32 | [direction](../../algorithms/calculations/direction.md) | 1 | Movement direction | 0 |
+| UInt32 | [hero_id](../identifiers.md) | 2 | Unique identifier for the character | 1000000 |
 | UInt32 | [movement_mode](#movement-modes-1) | 3 | Type of ground movement | 1 |
-| UInt32 | [system_time](/network/timestamps.md) | 4 | Milliseconds of system uptime | 10000 |
-| UInt32 | [map_id](/files/content/gamemap.dat.md) | 5 | Map identifier | 1002 |
+| UInt32 | [system_time](../timestamps.md) | 4 | Milliseconds of system uptime | 10000 |
+| UInt32 | [map_id](../../files/content/gamemap.dat.md) | 5 | Map identifier | 1002 |
 
 #### Movement Modes
 

@@ -29,8 +29,8 @@ The account ID in the account server MsgConnect message is copied from [MsgConne
 |:-------|:--------|:--------|:--------|:--------|
 | 0  | UInt16 | [MsgSize](index.md#message-header) | Size of the message | 28 |
 | 2  | UInt16 | [MsgType](index.md#message-header) | Type of message | 1052 |
-| 4  | UInt32 | [Account ID](/network/identifiers.md) | Account id from the account server | 1 |
-| 8  | UInt32 | Data | Contents of the [Res.dat](/files/content/res.dat.md) file | 10 |
+| 4  | UInt32 | [Account ID](../identifiers.md) | Account id from the account server | 1 |
+| 8  | UInt32 | Data | Contents of the [Res.dat](../../files/content/res.dat.md) file | 10 |
 | 12 | Char[16] | Info | Name of the file | Res.dat |
 
 #### Game Server Message Definition
@@ -41,8 +41,8 @@ The account ID in the account server MsgConnect message is copied from [MsgConne
 |:-------|:--------|:--------|:--------|:--------|
 | 0  | UInt16 | [MsgSize](index.md#message-header) | Size of the message | 28 |
 | 2  | UInt16 | [MsgType](index.md#message-header) | Type of message | 1052 |
-| 4  | UInt32 | [Account ID](/network/identifiers.md) | Account id from the account server | 1 |
-| 8  | UInt32 | Data | [Encryption key](/security/tq.md) generator parameter | 6351601 |
+| 4  | UInt32 | [Account ID](../identifiers.md) | Account id from the account server | 1 |
+| 8  | UInt32 | Data | [Encryption key](../../security/tq.md) generator parameter | 6351601 |
 | 12 | Char[16] | Info | Build version and language | 117 English |
 
 ## Patch 4343
@@ -55,8 +55,8 @@ The account ID in the account server MsgConnect message is copied from [MsgConne
 |:-------|:--------|:--------|:--------|:--------|
 | 0  | UInt16 | [MsgSize](index.md#message-header) | Size of the message | 28 |
 | 2  | UInt16 | [MsgType](index.md#message-header) | Type of message | 1052 |
-| 4  | UInt32 | [Account ID](/network/identifiers.md) | Account id from the account server | 1 |
-| 8  | UInt32 | Data | Contents of the [Res.dat](/files/content/res.dat.md) file | 10 |
+| 4  | UInt32 | [Account ID](../identifiers.md) | Account id from the account server | 1 |
+| 8  | UInt32 | Data | Contents of the [Res.dat](../../files/content/res.dat.md) file | 10 |
 | 12 | Char[16] | Info | Name of the file | Res.dat |
 
 #### Game Server Message Definition
@@ -67,11 +67,11 @@ The account ID in the account server MsgConnect message is copied from [MsgConne
 |:-------|:--------|:--------|:--------|:--------|
 | 0  | UInt16 | [MsgSize](index.md#message-header) | Size of the message | 28 |
 | 2  | UInt16 | [MsgType](index.md#message-header) | Type of message | 1052 |
-| 4  | UInt32 | [Account ID](/network/identifiers.md) | Account id from the account server | 1 |
-| 8  | UInt32 | Data | [Encryption key](/security/tq.md) generator parameter | 6351601 |
+| 4  | UInt32 | [Account ID](../identifiers.md) | Account id from the account server | 1 |
+| 8  | UInt32 | Data | [Encryption key](../../security/tq.md) generator parameter | 6351601 |
 | 12 | UInt16 | Build | Build version of the client | 123 |
 | 14 | Char[10] | Language | [ISO 639-1](https://en.wikipedia.org/wiki/List_of_ISO_639_language_codes) language code | En |
-| 24 | UInt32 | Info | Contents of the [Res.dat](/files/content/res.dat.md) file | 10 |
+| 24 | UInt32 | Info | Contents of the [Res.dat](../../files/content/res.dat.md) file | 10 |
 
 ## Patch 5065
 
@@ -83,8 +83,8 @@ The account ID in the account server MsgConnect message is copied from [MsgConne
 |:-------|:--------|:--------|:--------|:--------|
 | 0  | UInt16 | [MsgSize](index.md#message-header) | Size of the message | 28 |
 | 2  | UInt16 | [MsgType](index.md#message-header) | Type of message | 1052 |
-| 4  | UInt32 | [Account ID](/network/identifiers.md) | Account id from the account server | 1 |
-| 8  | UInt32 | Data | Contents of the [Res.dat](/files/content/res.dat.md) file | 10 |
+| 4  | UInt32 | [Account ID](../identifiers.md) | Account id from the account server | 1 |
+| 8  | UInt32 | Data | Contents of the [Res.dat](../../files/content/res.dat.md) file | 10 |
 | 12 | Char[16] | Info | Name of the file | Res.dat |
 
 #### Game Server Message Definition
@@ -95,9 +95,9 @@ The account ID in the account server MsgConnect message is copied from [MsgConne
 |:-------|:--------|:--------|:--------|:--------|
 | 0  | UInt16 | [MsgSize](index.md#message-header) | Size of the message | 28 |
 | 2  | UInt16 | [MsgType](index.md#message-header) | Type of message | 1052 |
-| 4  | UInt32 | [Account ID](/network/identifiers.md) | Account id from the account server | 1 |
-| 8  | UInt32 | Data | [Encryption key](/security/tq.md) generator parameter | 6351601 |
+| 4  | UInt32 | [Account ID](../identifiers.md) | Account id from the account server | 1 |
+| 8  | UInt32 | Data | [Encryption key](../../security/tq.md) generator parameter | 6351601 |
 | 12 | UInt16 | Build | Build version of the client | 123 |
 | 14 | Char[2] | Language | [ISO 639-1](https://en.wikipedia.org/wiki/List_of_ISO_639_language_codes) language code | En |
 | 16 | Char[8] | Mac Address | Mac address of connecting interface | 0A0B0C0D0E0F |
-| 24 | UInt32 | Info | Contents of the [Res.dat](/files/content/res.dat.md) file | 10 |
+| 24 | UInt32 | Info | Contents of the [Res.dat](../../files/content/res.dat.md) file | 10 |

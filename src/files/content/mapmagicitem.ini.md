@@ -1,8 +1,8 @@
 # MapMagicItem.ini
 
-This file is loaded on client role data initialization, and utilized by [MsgMapItem](/network/messages/MsgMapItem.md) to show magical effects on the map floor. These effects play as "moments" that the client iterates through: starting with "start" and ending with "end". If any of the moment [TMEs](/files/formats/tme.md) are "0" in the file, then that moment will be skipped.
+This file is loaded on client role data initialization, and utilized by [MsgMapItem](../../network/messages/MsgMapItem.md) to show magical effects on the map floor. These effects play as "moments" that the client iterates through: starting with "start" and ending with "end". If any of the moment [TMEs](../formats/tme.md) are "0" in the file, then that moment will be skipped.
 
-The "look" described in [MsgMapItem](/network/messages/MsgMapItem.md) is the type key in the INI file.
+The "look" described in [MsgMapItem](../../network/messages/MsgMapItem.md) is the type key in the INI file.
 
 ## Table of Contents
 
@@ -14,9 +14,9 @@ The "look" described in [MsgMapItem](/network/messages/MsgMapItem.md) is the typ
 
 | Field | Type | Description | Example |
 |:-------|:--------|:--------|:--------|
-| Start | String | Starting [TME](/files/formats/tme.md) to play at start of processing | rain01.TME |
-| Last | String | Lasting [TME](/files/formats/tme.md) playing until effect is removed | windblade7-1.TME |
-| End | String | Ending [TME](/files/formats/tme.md) to play at the end of processing | line05.TME |
+| Start | String | Starting [TME](../formats/tme.md) to play at start of processing | rain01.TME |
+| Last | String | Lasting [TME](../formats/tme.md) playing until effect is removed | windblade7-1.TME |
+| End | String | Ending [TME](../formats/tme.md) to play at the end of processing | line05.TME |
 
 Below is an example entry using the definition above:
 

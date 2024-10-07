@@ -27,16 +27,16 @@ This message is sent between the client and game server to request and respond t
 
 | Val | Name | Description | Recipient | Target |
 |:------|:--------|:--------|:--------|:--------|
-| 1  | APPLY_JOIN | Apply to join a guild (sends INVITE_JOIN) | Server | [Target ID](/network/identifiers.md) |
-| 2  | INVITE_JOIN | Invite a player to join a guild | Client | [Target ID](/network/identifiers.md) |
+| 1  | APPLY_JOIN | Apply to join a guild (sends INVITE_JOIN) | Server | [Target ID](../identifiers.md) |
+| 2  | INVITE_JOIN | Invite a player to join a guild | Client | [Target ID](../identifiers.md) |
 | 3  | LEAVE_SYN | Request to leave current guild | Server | |
-| 4  | KICKOUT_MEMBER | Kick a member from guild | Client | [Target ID](/network/identifiers.md) |
+| 4  | KICKOUT_MEMBER | Kick a member from guild | Client | [Target ID](../identifiers.md) |
 | 6  | QUERY_SYN_NAME | Sends [MsgName](msgname.md) with guild name | Server | Syndicate ID |
 | 7  | ALLY_APPLY | Sets a guild as an ally | Server | Ally's Syndicate ID |
 | 8  | CLEAR_ALLY | Removes an ally guild | Server | Ally's Syndicate ID |
 | 9  | ANTAGONIZE | Sets a guild as an enemy | Server | Enemy's Syndicate ID |
 | 10 | CLEAR_ANTAGONIZE | Removes an enemy guild | Server | Enemy's Syndicate ID |
 | 11 | DONATE_MONEY | Add silver to the guild fund | Server | Amount |
-| 12 | QUERY_SYNATTR | Query for guild attributes | Server | [Target ID](/network/identifiers.md) |
+| 12 | QUERY_SYNATTR | Query for guild attributes | Server | [Target ID](../identifiers.md) |
 | 14 | SET_SYN | Sent on login to set syndicate ID | Client | Syndicate ID |
 | 19 | DESTROY_SYN | Terminates a guild | Client | Syndicate ID |

@@ -25,12 +25,12 @@ The identity shown in this message may not be the account identifier if you use 
 |:-------|:--------|:--------|:--------|:--------|
 | 0  | UInt16 | [MsgSize](index.md#message-header) | Size of the message | 60 |
 | 2  | UInt16 | [MsgType](index.md#message-header) | Type of message | 1001 |
-| 4  | Char[16] | [Username](/strings/accountusername.md) | Account username from login | admin |
-| 20 | Char[16] | [Hero Name](/strings/heroname.md) | Requested name to be checked | Player |
-| 36 | Char[16] | [Password](/strings/accountpassword.md) | Account password (missing RC5 wrapper) | test |
-| 52 | UInt16 | [Hero Look](/constants/herolook.md) | Selected character model | 1003 |
-| 54 | UInt16 | [Hero Profession](/constants/heroprofession.md) | Selected character profession | 10 |
-| 56 | UInt32 | [Account ID](/network/identifiers.md) | Account id from the account server | 1 |
+| 4  | Char[16] | [Username](../../strings/accountusername.md) | Account username from login | admin |
+| 20 | Char[16] | [Hero Name](../../strings/heroname.md) | Requested name to be checked | Player |
+| 36 | Char[16] | [Password](../../strings/accountpassword.md) | Account password (missing RC5 wrapper) | test |
+| 52 | UInt16 | [Hero Look](../../constants/herolook.md) | Selected character model | 1003 |
+| 54 | UInt16 | [Hero Profession](../../constants/heroprofession.md) | Selected character profession | 10 |
+| 56 | UInt32 | [Account ID](../identifiers.md) | Account id from the account server | 1 |
 
 ## Patch 5017
 
@@ -42,12 +42,12 @@ The identity shown in this message may not be the account identifier if you use 
 |:-------|:--------|:--------|:--------|:--------|
 | 0  | UInt16 | [MsgSize](index.md#message-header) | Size of the message | 60 |
 | 2  | UInt16 | [MsgType](index.md#message-header) | Type of message | 1001 |
-| 4  | Char[16] | [Username](/strings/accountusername.md) | Account username from login | admin |
-| 20 | Char[16] | [Hero Name](/strings/heroname.md) | Requested name to be checked | Player |
+| 4  | Char[16] | [Username](../../strings/accountusername.md) | Account username from login | admin |
+| 20 | Char[16] | [Hero Name](../../strings/heroname.md) | Requested name to be checked | Player |
 | 36 | Char[16] | Masked Password | Hidden password | **** |
-| 52 | UInt16 | [Hero Look](/constants/herolook.md) | Selected character model | 1003 |
-| 54 | UInt16 | [Hero Profession](/constants/heroprofession.md) | Selected character profession | 10 |
-| 56 | UInt32 | [Account ID](/network/identifiers.md) | Account id from the account server | 1 |
+| 52 | UInt16 | [Hero Look](../../constants/herolook.md) | Selected character model | 1003 |
+| 54 | UInt16 | [Hero Profession](../../constants/heroprofession.md) | Selected character profession | 10 |
+| 56 | UInt32 | [Account ID](../identifiers.md) | Account id from the account server | 1 |
 
 ## Patch 5065
 
@@ -59,11 +59,11 @@ The identity shown in this message may not be the account identifier if you use 
 |:-------|:--------|:--------|:--------|:--------|
 | 0  | UInt16 | [MsgSize](index.md#message-header) | Size of the message | 60 |
 | 2  | UInt16 | [MsgType](index.md#message-header) | Type of message | 1001 |
-| 4  | Char[16] | [Username](/strings/accountusername.md) | Account username from login | admin |
-| 20 | Char[16] | [Hero Name](/strings/heroname.md) | Requested name to be checked | Player |
-| 52 | UInt16 | [Hero Look](/constants/herolook.md) | Selected character model | 1003 |
-| 54 | UInt16 | [Hero Profession](/constants/heroprofession.md) | Selected character profession | 10 |
-| 56 | UInt32 | [Account ID](/network/identifiers.md) | Account id from the account server | 1 |
+| 4  | Char[16] | [Username](../../strings/accountusername.md) | Account username from login | admin |
+| 20 | Char[16] | [Hero Name](../../strings/heroname.md) | Requested name to be checked | Player |
+| 52 | UInt16 | [Hero Look](../../constants/herolook.md) | Selected character model | 1003 |
+| 54 | UInt16 | [Hero Profession](../../constants/heroprofession.md) | Selected character profession | 10 |
+| 56 | UInt32 | [Account ID](../identifiers.md) | Account id from the account server | 1 |
 
 ## Patch 5165
 
@@ -75,9 +75,9 @@ The identity shown in this message may not be the account identifier if you use 
 |:-------|:--------|:--------|:--------|:--------|
 | 0  | UInt16 | [MsgSize](index.md#message-header) | Size of the message | 104 |
 | 2  | UInt16 | [MsgType](index.md#message-header) | Type of message | 1001 |
-| 4  | Char[16] | [Username](/strings/accountusername.md) | Account username from login | admin |
-| 20 | Char[16] | [Hero Name](/strings/heroname.md) | Requested name to be checked | Player |
-| 52 | UInt16 | [Hero Look](/constants/herolook.md) | Selected character model | 1003 |
-| 54 | UInt16 | [Hero Profession](/constants/heroprofession.md) | Selected character profession | 10 |
-| 56 | UInt32 | [Account ID](/network/identifiers.md) | Account id from the account server | 1 |
+| 4  | Char[16] | [Username](../../strings/accountusername.md) | Account username from login | admin |
+| 20 | Char[16] | [Hero Name](../../strings/heroname.md) | Requested name to be checked | Player |
+| 52 | UInt16 | [Hero Look](../../constants/herolook.md) | Selected character model | 1003 |
+| 54 | UInt16 | [Hero Profession](../../constants/heroprofession.md) | Selected character profession | 10 |
+| 56 | UInt32 | [Account ID](../identifiers.md) | Account id from the account server | 1 |
 | 60 | UInt16[6] | MacAddress | Network device identifier | 00,10,5A,44,12,B5 |

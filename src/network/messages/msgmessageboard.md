@@ -2,7 +2,7 @@
 
 Message boards are categorized into channels, referenced in [MsgTalk](msgtalk.md) as [Text Attributes](msgtalk.md#text-attribute). The game server and client pass this message to organize text messages from MsgTalk into listable postings.
 
-The [NetStringPacker](/network/stringpacker.md) returned when listing posts (10 maximum) is flattened groupings of three strings each:
+The [NetStringPacker](../stringpacker.md) returned when listing posts (10 maximum) is flattened groupings of three strings each:
 
 * Name: The name of the hero who authored the message.
 * Message: Text shortened to 36 characters.
@@ -25,7 +25,7 @@ The [NetStringPacker](/network/stringpacker.md) returned when listing posts (10 
 | 4  | UInt16 | Index | Message index for continuation | 0 |
 | 6  | UInt16 | Channel | [Text Attributes](msgtalk.md#text-attribute) | 2201 |
 | 8  | Byte | [Action](#message-board-action) | Message action type | 2 |
-| 9 | [NetStringPacker](/network/stringpacker.md) | Strings | | |
+| 9 | [NetStringPacker](../stringpacker.md) | Strings | | |
 
 #### Message Board Action
 

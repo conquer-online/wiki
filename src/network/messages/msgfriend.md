@@ -20,7 +20,7 @@ The level parameter that once appeared at offset 10 was removed during the alpha
 |:-------|:--------|:--------|:--------|:--------|
 | 0  | UInt16 | [MsgSize](index.md#message-header) | Size of the message | 28 |
 | 2  | UInt16 | [MsgType](index.md#message-header) | Type of message | 1019 |
-| 4  | UInt32 | [Hero ID](/network/identifiers.md) | Unique identifier for the friend | 1000000 |
+| 4  | UInt32 | [Hero ID](../identifiers.md) | Unique identifier for the friend | 1000000 |
 | 8 | Byte | [Action](#action-type) | How to processes the message | 11 |
 | 9 | Byte | IsOnline | True if the friend is online | 1 |
 | 12 | Char[16] | Name | Character name as a fixed string | Player |
@@ -56,7 +56,7 @@ enum FriendActionTypes {
 |:-------|:--------|:--------|:--------|:--------|
 | 0  | UInt16 | [MsgSize](index.md#message-header) | Size of the message | 36 |
 | 2  | UInt16 | [MsgType](index.md#message-header) | Type of message | 1019 |
-| 4  | UInt32 | [Hero ID](/network/identifiers.md) | Unique identifier for the friend | 1000000 |
+| 4  | UInt32 | [Hero ID](../identifiers.md) | Unique identifier for the friend | 1000000 |
 | 8 | Byte | [Action](#action-type-1) | How to processes the message | 11 |
 | 9 | Byte | Is Online | True if the friend is online | 1 |
 | 12 | UInt32 | Nobility Rank | Nobility ranking | 3 |
@@ -94,7 +94,7 @@ enum FriendActionTypes {
 |:-------|:--------|:--------|:--------|:--------|
 | 0  | UInt16 | [MsgSize](index.md#message-header) | Size of the message | 68 |
 | 2  | UInt16 | [MsgType](index.md#message-header) | Type of message | 1019 |
-| 4  | UInt32 | [Hero ID](/network/identifiers.md) | Unique identifier for the friend | 1000000 |
+| 4  | UInt32 | [Hero ID](../identifiers.md) | Unique identifier for the friend | 1000000 |
 | 8 | Byte | [Action](#action-type-1) | How to processes the message | 11 |
 | 9 | Byte | Is Online | True if the friend is online | 1 |
 | 12 | UInt32 | Nobility Rank | Nobility ranking | 3 |

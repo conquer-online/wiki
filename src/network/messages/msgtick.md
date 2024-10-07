@@ -35,7 +35,7 @@ static uint32_t checksum(const char* aName)
 |:-------|:--------|:--------|:--------|:--------|
 | 0  | UInt16 | [MsgSize](index.md#message-header) | Size of the message | 20 |
 | 2  | UInt16 | [MsgType](index.md#message-header) | Type of message | 1012 |
-| 4  | UInt32 | [Hero ID](/network/identifiers.md) | Unique identifier for the character | 1000000 |
-| 8  | UInt32 | [System Time](/network/timestamp.md) | Milliseconds of system uptime ^ Hero ID | 1579846705 |
+| 4  | UInt32 | [Hero ID](../identifiers.md) | Unique identifier for the character | 1000000 |
+| 8  | UInt32 | [System Time](../timestamp.md) | Milliseconds of system uptime ^ Hero ID | 1579846705 |
 | 12 | UInt32 | Message Count | The total number of messages sent | 12 |
 | 16 | UInt32 | Check Data | Checksum using first two letters of the character's name | 2638960387 | 

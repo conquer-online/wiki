@@ -26,5 +26,5 @@ This game server message is sent to the client to update the interface with new 
 
 | Val | Name | Description | File |
 |:----|:--------|:--------|:--------|
-| 0 | WEAPON_SKILL | Weapon skill proficiency | [WeaponSkillLevelExp.ini](/files/content/weaponskilllevelexp.ini.md) |
-| 1 | MAGIC | Magic spell experience | [MagicType.dat](/files/content/MagicType.dat.md) |
+| 0 | WEAPON_SKILL | Weapon skill proficiency | [WeaponSkillLevelExp.ini](../../files/content/weaponskilllevelexp.ini.md) |
+| 1 | MAGIC | Magic spell experience | [MagicType.dat](../../files/content/MagicType.dat.md) |

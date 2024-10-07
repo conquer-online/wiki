@@ -1,8 +1,8 @@
 # MsgMapInfo
 
-This small game server message is sent to instruct the client on which [data map](/files/formats/dmap.md) document to load from and what map type flags apply to it. This allows the game server to create unique duplicates of a map that reference one single data map.
+This small game server message is sent to instruct the client on which [data map](../../files/formats/dmap.md) document to load from and what map type flags apply to it. This allows the game server to create unique duplicates of a map that reference one single data map.
 
-Rather than referencing the file path to the DMap in the message, an identifier is used as a key for looking up the path in [GameMap.dat](/files/content/gamemap.dat.md).
+Rather than referencing the file path to the DMap in the message, an identifier is used as a key for looking up the path in [GameMap.dat](../../files/content/gamemap.dat.md).
 
 ## Table of Contents
 
@@ -18,8 +18,8 @@ Rather than referencing the file path to the DMap in the message, an identifier 
 |:-------|:--------|:--------|:--------|:--------|
 | 0  | UInt16 | [MsgSize](index.md#message-header) | Size of the message | 16 |
 | 2  | UInt16 | [MsgType](index.md#message-header) | Type of message | 1110 |
-| 4  | UInt32 | [Map ID](/network/identifiers.md) | Map identifier | 1002 |
-| 8  | UInt32 | [Doc ID](/files/content/gamemap.dat.md) | DMap identifier | 1002 |
+| 4  | UInt32 | [Map ID](../identifiers.md) | Map identifier | 1002 |
+| 8  | UInt32 | [Doc ID](../../files/content/gamemap.dat.md) | DMap identifier | 1002 |
 | 12 | UInt32 | [Type](#map-type-flags) | Map type flags | 0 |
 
 #### Map Type Flags

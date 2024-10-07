@@ -2,11 +2,11 @@
 
 This client message is sent to the account server to request authentication. There have been multiple message types over the years for handling authentication requests from the client. MsgAccount is the first, but was later replaced by [MsgAccountSRP6](msgaccountsrp6.md) and [MsgAccountSRP6Ex](msgaccountsrp6ex.md) in versions 5532+.
 
-In this message, the player's password is encrypted using [RC5](/security/rc5.md).
+In this message, the player's password is encrypted using [RC5](../../security/rc5.md).
 
 > ⚠️ __WARNING__
 >
-> The password in this message is encrypted using a static key in earlier versions of the client. Although later versions start to use a generated key, that key is exchanged using [MsgEncryptCode](msgencryptcode.md) and does not protect against proxies employing a man-in-the-middle attack. This was patched in version 5532 with the use of [SRP6](/security/srp6.md), which also added additional complexity for clientless bot creation.
+> The password in this message is encrypted using a static key in earlier versions of the client. Although later versions start to use a generated key, that key is exchanged using [MsgEncryptCode](msgencryptcode.md) and does not protect against proxies employing a man-in-the-middle attack. This was patched in version 5532 with the use of [SRP6](../../security/srp6.md), which also added additional complexity for clientless bot creation.
 
 ## Table of Contents
 

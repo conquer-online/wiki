@@ -1,6 +1,6 @@
 # MsgMagicInfo
 
-This game server message is sent to the client to describe spells the player has learned. [MagicType.dat](/files/content/MagicType.dat.md) contains all spells accompanied with available levels and experience required for the next level, used to fill this message.
+This game server message is sent to the client to describe spells the player has learned. [MagicType.dat](../../files/content/MagicType.dat.md) contains all spells accompanied with available levels and experience required for the next level, used to fill this message.
 
 ## Table of Contents
 
