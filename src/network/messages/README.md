@@ -100,7 +100,7 @@ The table below is an abstract and directory of message types used in various pa
 | 1110 | [MsgMapInfo](msgmapinfo.md) | Map type flags |
 | 1111 | [MsgMessageBoard](msgmessageboard.md) | Categorized message board |
 | 1112 | [MsgSynMemberInfo](msgsynmemberinfo.md) |  |
-| 1113 | [MsgDice](msgdice.md) |  |
+| 1113 | [MsgDice](msgdice.md) | Dice game messages |
 | 1114 | [MsgSyncAction](msgsyncaction.md) |  |
 | 1115 | [MsgDisconnect](msgdisconnect.md) |  |
 | 1121 | [MsgFacebookAccount](msgfacebookaccount.md) |  |
