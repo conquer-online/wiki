@@ -101,7 +101,7 @@ The table below is an abstract and directory of message types used in various pa
 | 1111 | [MsgMessageBoard](msgmessageboard.md) | Categorized message board |
 | 1112 | [MsgSynMemberInfo](msgsynmemberinfo.md) |  |
 | 1113 | [MsgDice](msgdice.md) | Dice game messages |
-| 1114 | [MsgSyncAction](msgsyncaction.md) |  |
+| 1114 | [MsgSyncAction](msgsyncaction.md) | Two-player synchronized actions |
 | 1115 | [MsgDisconnect](msgdisconnect.md) |  |
 | 1121 | [MsgFacebookAccount](msgfacebookaccount.md) |  |
 | 1124 | [MsgAccountSRP6](msgaccountsrp6.md) |  |
