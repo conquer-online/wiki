@@ -104,7 +104,7 @@ The table below is an abstract and directory of message types used in various pa
 | 1114 | [MsgSyncAction](msgsyncaction.md) | Two-player synchronized actions |
 | 1115 | [MsgDisconnect](msgdisconnect.md) |  |
 | 1121 | [MsgFacebookAccount](msgfacebookaccount.md) |  |
-| 1124 | [MsgAccountSRP6](msgaccountsrp6.md) |  |
+| 1124 | [MsgAccountSRP6](msgaccountsrp6.md) | Requests SRP6 password exchange |
 | 1125 | [MsgAccountKalydo](msgaccountkalydo.md) |  |
 | 1126 | [MsgInviteTrans](msginvitetrans.md) |  |
 | 1127 | [MsgMentorPlayer](msgmentorplayer.md) |  |
@@ -118,8 +118,8 @@ The table below is an abstract and directory of message types used in various pa
 | 1151 | [MsgRank](msgrank.md) |  |
 | 1202 | [MsgRegisterFaceBook](msgregisterfacebook.md) |  |
 | 1203 | [MsgConnectFaceBook](msgconnectfacebook.md) |  |
-| 1213 | [MsgLoginChallengeS](msgloginchallenges.md) |  |
-| 1214 | [MsgLoginProofC](msgloginproofc.md) |  |
+| 1213 | [MsgLoginChallengeS](msgloginchallenges.md) | Sends SRP6 challenge |
+| 1214 | [MsgLoginProofC](msgloginproofc.md) | Reply for SRP6 challenge |
 | 1312 | [MsgFamily](msgfamily.md) |  |
 | 1313 | [MsgFamilyOccupy](msgfamilyoccupy.md) |  |
 | 1314 | [MsgLottery](msglottery.md) |  |
@@ -134,8 +134,8 @@ The table below is an abstract and directory of message types used in various pa
 | 1351 | [MsgSlotAction](msgslotaction.md) |  |
 | 1352 | [MsgSlotResult](msgslotresult.md) |  |
 | 1518 | [MsgConnectLegalitySpec](msgconnectlegalityspec.md) |  |
-| 1542 | [MsgAccountSRP6Ex](msgaccountsrp6ex.md) |  |
-| 1636 | [MsgAccountSRP6Ex](msgaccountsrp6ex.md) |  |
+| 1542 | [MsgAccountSRP6Ex](msgaccountsrp6ex.md) | Requests SRP6 password exchange |
+| 1636 | [MsgAccountSRP6Ex](msgaccountsrp6ex.md) | Requests SRP6 password exchange |
 | 2030 | [MsgNpcInfo](msgnpcinfo.md) | NPC spawn information |
 | 2031 | [MsgNpc](msgnpc.md) |  |
 | 2032 | [MsgTaskDialog](msgtaskdialog.md) |  |
