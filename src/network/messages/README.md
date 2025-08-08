@@ -110,7 +110,7 @@ The table below is an abstract and directory of message types used in various pa
 | 1127 | [MsgMentorPlayer](msgmentorplayer.md) |  |
 | 1128 | [MsgVipUserHandle](msgvipuserhandle.md) |  |
 | 1129 | [MsgVipFunctionValidNotify](msgvipfunctionvalidnotify.md) |  |
-| 1130 | [MsgTitle](msgtitle.md) |  |
+| 1130 | [MsgTitle](msgtitle.md) | List or change player title |
 | 1134 | [MsgTaskStatus](msgtaskstatus.md) |  |
 | 1135 | [MsgTaskDetailInfo](msgtaskdetailinfo.md) |  |
 | 1136 | [MsgAchievement](msgachievement.md) |  |
