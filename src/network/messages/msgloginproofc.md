@@ -4,7 +4,7 @@ The client sends this message back to the account server in response to [MsgLogi
 
 > ⚠️ __WARNING__
 >
-> The server should always verify that the client's proof of K and public ephemeral value is non-zero.
+> The server should always verify that the client's proof of K and public ephemeral value are non-zero.
 
 ## Table of Contents
 

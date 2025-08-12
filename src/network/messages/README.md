@@ -120,7 +120,7 @@ The table below is an abstract and directory of message types used in various pa
 | 1203 | [MsgConnectFaceBook](msgconnectfacebook.md) |  |
 | 1213 | [MsgLoginChallengeS](msgloginchallenges.md) | Sends SRP6 challenge |
 | 1214 | [MsgLoginProofC](msgloginproofc.md) | Reply for SRP6 challenge |
-| 1312 | [MsgFamily](msgfamily.md) |  |
+| 1312 | [MsgFamily](msgfamily.md) | Clan action request |
 | 1313 | [MsgFamilyOccupy](msgfamilyoccupy.md) |  |
 | 1314 | [MsgLottery](msglottery.md) |  |
 | 1315 | [MsgOperatingAct](msgoperatingact.md) |  |
