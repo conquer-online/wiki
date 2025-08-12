@@ -130,7 +130,7 @@ The table below is an abstract and directory of message types used in various pa
 | 1322 | [MsgAuctionQuery](msgauctionquery.md) |  |
 | 1323 | [MsgPromotionAct](msgpromotionact.md) |  |
 | 1324 | [MsgPromotionInfo](msgpromotioninfo.md) |  |
-| 1350 | [MsgGameServerShutDown](msggameservershutdown.md) |  |
+| 1350 | [MsgGameServerShutDown](msggameservershutdown.md) | Shutdown notification |
 | 1351 | [MsgSlotAction](msgslotaction.md) |  |
 | 1352 | [MsgSlotResult](msgslotresult.md) |  |
 | 1518 | [MsgConnectLegalitySpec](msgconnectlegalityspec.md) |  |
