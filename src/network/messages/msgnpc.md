@@ -29,7 +29,7 @@ This message is sent to the game server to interact with an NPC. This is mostly 
 
 | Val | Name | Description | Recipient | ID | Data |
 |:------|:--------|:--------|:--------|:--------|:--------|
-| 0 | ACTIVATE | Activates an NPC for dialog | Server | [NPC ID](../identifiers.md) | Dialog option |
+| 0 | ACTIVATE | Activates an NPC for dialog | Server | [NPC ID](../identifiers.md) | |
 | 1 | ADD_NPC | Adds an NPC to the map | Server | [NPC ID](../identifiers.md) | |
 | 2 | LEAVE_MAP | Deletes an NPC from the map | Client | [NPC ID](../identifiers.md) | |
 | 3 | DEL_NPC | Requests an NPC be deleted | Server | [NPC ID](../identifiers.md) | |
