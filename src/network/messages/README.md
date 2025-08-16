@@ -137,7 +137,7 @@ The table below is an abstract and directory of message types used in various pa
 | 1542 | [MsgAccountSRP6Ex](msgaccountsrp6ex.md) | Requests SRP6 password exchange |
 | 1636 | [MsgAccountSRP6Ex](msgaccountsrp6ex.md) | Requests SRP6 password exchange |
 | 2030 | [MsgNpcInfo](msgnpcinfo.md) | NPC spawn information |
-| 2031 | [MsgNpc](msgnpc.md) |  |
+| 2031 | [MsgNpc](msgnpc.md) | NPC interaction |
 | 2032 | [MsgTaskDialog](msgtaskdialog.md) |  |
 | 2033 | [MsgFriendInfo](msgfriendinfo.md) |  |
 | 2035 | [MsgPetInfo](msgpetinfo.md) |  |
