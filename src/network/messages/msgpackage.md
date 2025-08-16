@@ -20,7 +20,7 @@ The message definition below is used for basic requests on checking in and out i
 | 0  | UInt16 | [MsgSize](index.md#message-header) | Size of the message | 14 |
 | 2  | UInt16 | [MsgType](index.md#message-header) | Type of message | 1102 |
 | 4  | UInt32 | [ID](../identifiers.md) | Identifier for a hero, NPC, or trunk | 8 |
-| 8  | Byte | [Action](#action-type) | How to processes the message | 0 |
+| 8  | Byte | [Action](#action-type) | How to process the message | 0 |
 | 9  | Byte | [Type](#package-type) | The type of package being processed | 10 |
 | 10 | UInt32 | [Item ID](../identifiers.md) | Unique identifier of the item | 1 |
 
@@ -31,7 +31,7 @@ The message definition below is used for returning a list of items back to the p
 | 0  | UInt16 | [MsgSize](index.md#message-header) | Size of the message | 28 |
 | 2  | UInt16 | [MsgType](index.md#message-header) | Type of message | 1102 |
 | 4  | UInt32 | [ID](../identifiers.md) | Identifier for a hero, NPC, or trunk | 8 |
-| 8  | Byte | [Action](#action-type) | How to processes the message | 0 |
+| 8  | Byte | [Action](#action-type) | How to process the message | 0 |
 | 9  | Byte | [Type](#package-type) | The type of package being processed | 10 |
 | 10 | UInt16 | Amount | Amount of items to send | 1 |
 | 12 | [PackageItem](#package-item-definition)[] | Items | Abbreviated item infos | |
@@ -89,7 +89,7 @@ The message definition below is used for basic requests on checking in and out i
 | 0  | UInt16 | [MsgSize](index.md#message-header) | Size of the message | 14 |
 | 2  | UInt16 | [MsgType](index.md#message-header) | Type of message | 1102 |
 | 4  | UInt32 | [ID](../identifiers.md) | Identifier for a hero, NPC, or trunk | 8 |
-| 8  | Byte | [Action](#action-type-1) | How to processes the message | 0 |
+| 8  | Byte | [Action](#action-type-1) | How to process the message | 0 |
 | 9  | Byte | [Type](#package-type-1) | The type of package being processed | 10 |
 | 10 | UInt32 | [Item ID](../identifiers.md) | Unique identifier of the item | 1 |
 
@@ -100,7 +100,7 @@ The message definition below is used for returning a list of items back to the p
 | 0  | UInt16 | [MsgSize](index.md#message-header) | Size of the message | 38 |
 | 2  | UInt16 | [MsgType](index.md#message-header) | Type of message | 1102 |
 | 4  | UInt32 | [ID](../identifiers.md) | Identifier for a hero, NPC, or trunk | 8 |
-| 8  | Byte | [Action](#action-type-1) | How to processes the message | 0 |
+| 8  | Byte | [Action](#action-type-1) | How to process the message | 0 |
 | 9  | Byte | [Type](#package-type-1) | The type of package being processed | 10 |
 | 10 | UInt16 | Amount | Amount of items to send | 1 |
 | 12 | [PackageItem](#package-item-definition-1)[] | Items | Abbreviated item infos | |

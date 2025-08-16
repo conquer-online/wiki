@@ -21,7 +21,7 @@ This game server message is sent to the client to display an action with an item
 | 8  | UInt32 | Type | Map item type or trap [look](../../files/content/mapmagicitem.ini.md) | 0 |
 | 12 | UInt16 | Pos X | X coordinate of the item or trap | 320 |
 | 14 | UInt16 | Pos Y | Y coordinate of the item or trap | 460 |
-| 16 | UInt16 | [Action](#action-type) | How to processes the message | 1 |
+| 16 | UInt16 | [Action](#action-type) | How to process the message | 1 |
 
 #### Action Type
 
@@ -51,7 +51,7 @@ This game server message is sent to the client to display an action with an item
 | 12 | UInt16 | Pos X | X coordinate of the item or trap | 320 |
 | 14 | UInt16 | Pos Y | Y coordinate of the item or trap | 460 |
 | 16 | UInt16 | [Color](msgiteminfo.md#item-color) | Color modifier for the item | 3 |
-| 18 | UInt16 | [Action](#action-type) | How to processes the message | 1 |
+| 18 | UInt16 | [Action](#action-type) | How to process the message | 1 |
 | 20 | UInt32 | Unused | Confirmed unused by the client | 0 |
 
 #### Action Type

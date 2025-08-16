@@ -25,7 +25,7 @@ MsgAction is used for a variety of actions, such as configuring the client durin
 | 14 | UInt16 | Y | Y coordinate of the action or hero | 460 |
 | 16 | UInt32 | [Direction](../../algorithms/calculations/direction.md) | Action direction | 0 |
 | 20 | UInt32 | Data | Payload or target identifier | 0 |
-| 24 | UInt32 | [Action](#action-type) | How to processes the message | 0 | 
+| 24 | UInt32 | [Action](#action-type) | How to process the message | 0 | 
 
 #### Action Type
 
@@ -94,7 +94,7 @@ MsgAction is used for a variety of actions, such as configuring the client durin
 | 16 | UInt16 | X | X coordinate of the action or hero | 320 |
 | 18 | UInt16 | Y | Y coordinate of the action or hero | 460 |
 | 20 | UInt16 | [Direction](../../algorithms/calculations/direction.md) | Action direction | 0 |
-| 22 | UInt16 | [Action](#action-type) | How to processes the message | 0 |
+| 22 | UInt16 | [Action](#action-type) | How to process the message | 0 |
 
 #### Action Type
 

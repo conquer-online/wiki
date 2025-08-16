@@ -57,7 +57,7 @@ Similar to other messages, MsgInteract also contains types that overlap with oth
 | 12 | UInt32 | Target | [Role ID](../identifiers.md) of the target | 1000001 |
 | 16 | UInt16 | X | X coordinate of the interaction | 320 |
 | 18 | UInt16 | Y | Y coordinate of the interaction | 460 |
-| 20 | UInt32 | [Type](#interaction-type) | How to processes the message | 14 |
+| 20 | UInt32 | [Type](#interaction-type) | How to process the message | 14 |
 | 24 | UInt32 | Data | Value associated with the interaction | 1 |
 
 #### Interaction Type
@@ -93,7 +93,7 @@ Similar to other messages, MsgInteract also contains types that overlap with oth
 | 12 | UInt32 | Target | [Role ID](../identifiers.md) of the target | 1000001 |
 | 16 | UInt16 | X | X coordinate of the interaction | 320 |
 | 18 | UInt16 | Y | Y coordinate of the interaction | 460 |
-| 20 | UInt32 | [Type](#interaction-type-1) | How to processes the message | 14 |
+| 20 | UInt32 | [Type](#interaction-type-1) | How to process the message | 14 |
 | 24 | UInt32 | Data | Value associated with the interaction | 1 |
 | 28 | UInt32 | Progress | Progress on an interaction | 0 |
 

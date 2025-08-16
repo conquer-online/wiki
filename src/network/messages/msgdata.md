@@ -17,7 +17,7 @@ This message is sent by the game server to update the client interface with a se
 |:-------|:--------|:--------|:--------|:--------|
 | 0  | UInt16 | [MsgSize](index.md#message-header) | Size of the message | 36 |
 | 2  | UInt16 | [MsgType](index.md#message-header) | Type of message | 1033 |
-| 4  | UInt32 | [Data Type](#data-type) | How to processes the message | 0 |
+| 4  | UInt32 | [Data Type](#data-type) | How to process the message | 0 |
 | 8  | UInt32[] | Data Values | Array of data values | |
 
 #### Data Type
@@ -38,7 +38,7 @@ This message is sent by the game server to update the client interface with a se
 |:-------|:--------|:--------|:--------|:--------|
 | 0  | UInt16 | [MsgSize](index.md#message-header) | Size of the message | 36 |
 | 2  | UInt16 | [MsgType](index.md#message-header) | Type of message | 1033 |
-| 4  | UInt32 | [Data Type](#data-type-1) | How to processes the message | 0 |
+| 4  | UInt32 | [Data Type](#data-type-1) | How to process the message | 0 |
 | 8  | UInt32[] | Data Values | Array of data values | |
 
 #### Data Type

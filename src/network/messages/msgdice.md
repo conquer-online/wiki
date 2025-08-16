@@ -20,7 +20,7 @@ The game is split into three phases: a 30 second phase where players can bet (Am
 |:-------|:--------|:--------|:--------|:--------|
 | 0  | UInt16 | [MsgSize](index.md#message-header) | Size of the message | 20 |
 | 2  | UInt16 | [MsgType](index.md#message-header) | Type of message | 1113 |
-| 4 | Byte | [Action](#action-type) | How to processes the message | 0 |
+| 4 | Byte | [Action](#action-type) | How to process the message | 0 |
 | 5 | Byte | Amount | Amount of data or time | 1 |
 | 6 | UInt32 | NPC ID | [Role ID](../identifiers.md) of the NPC | 169 |
 | 10 | Struct | [DiceData](#dice-data) | Payload for dices | |

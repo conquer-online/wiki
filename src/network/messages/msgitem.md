@@ -34,7 +34,7 @@ Most item actions are initiated by the player. Each request expects a response o
 | 2  | UInt16 | [MsgType](index.md#message-header) | Type of message | 1009 |
 | 4  | UInt32 | [ID](../identifiers.md) | Unique identifier for the item or role | 1000000 |
 | 8  | UInt32 | Data | Payload usually of the item type or position | 730001 |
-| 12 | UInt32 | [Action](#item-action) | How to processes the message | 2 |
+| 12 | UInt32 | [Action](#item-action) | How to process the message | 2 |
 | 16 | UInt32 | [System Time](../timestamp.md) | Milliseconds of system uptime | 1579535985 |
 
 #### Item Action
