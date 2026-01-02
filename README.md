@@ -24,7 +24,7 @@ To get started, fork this repository. It's recommended that you work in private 
 You can write pages using private branches and one of the following methods:
 
 1. Open the file in GitHub and make an edit. Save your edit to a new or existing branch.
-2. Open the repo in Visual Studio and make edits. Push your branch to your origin.
+2. Open the repo in your editor of choice and make edits in a new or existing branch.
 
 If you'd like to run the wiki locally (rather than just preview the markdown), then you can install [Rust](https://www.rust-lang.org/) and run the following command:
 
