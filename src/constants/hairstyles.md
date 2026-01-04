@@ -35,6 +35,9 @@ enum HairColor {
 
 ```proto
 enum HairStyle {
+    // Bald
+    BALD_NO_HAIR = 0;
+
     // Nostalgic - 10-16
     HAIR_STYLE_NOSTALGIC_1 = 10;
     HAIR_STYLE_NOSTALGIC_2 = 11;
