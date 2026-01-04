@@ -1,8 +1,6 @@
 # Hairstyles
 
-The `HairStyle` value encodes both hair color and style in a single numeric ID.
-
-## Encoding Format
+The `HairStyle` value encodes both hair color and style in a single numeric type.
 
 ```
 HairStyle = (HairColor × 100) + Style
@@ -16,6 +14,10 @@ Examples:
 - `625` = Color 6 (Brown), Style 25 (Special)
 
 **Note**: VIP styles (70-90) have a static appearance and the color formula does not affect their visual look.
+
+## Client File References
+
+- **[`ini/NpcX.ini`](../files/content/npcx.ini.md)**: Contains 145+ `Hair=` entries with values ranging from 0 to 678, used to define NPC hairstyles
 
 ## Hair Colors
 
@@ -94,7 +96,3 @@ enum HairStyle {
     HAIR_STYLE_VIP5_16 = 90;
 }
 ```
-
-## Client File References
-
-- **`ini/NpcX.ini`**: Contains 145+ `Hair=` entries with values ranging from 0 to 678, used to define NPC hairstyles
