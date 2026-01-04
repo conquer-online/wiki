@@ -42,6 +42,7 @@
         - [StatusEffect.ini](files/content/statuseffect.ini.md)
         - [WeaponSkillLevelExp.ini](files/content/weaponskilllevelexp.ini.md)
         - [WeaponSkillName.ini](files/content/weaponskillname.ini.md)
+        - [NpcX.ini](files/content/npcx.ini.md)
     - [Formats](files/formats/README.md)
         - [DMAP](files/formats/dmap.md)
         - [TME](files/formats/tme.md)
