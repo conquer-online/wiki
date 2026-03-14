@@ -54,7 +54,7 @@ The player's VIP level is used in comparisons both server-side & client-side. Fo
 
 ### VIP Function Flags in MsgVipFunctionValidNotify
 
-The player must be at least VIP Level 1 before the VIP button is shown above the chat bar. The VIP dialog will always show 'RemoteWarehouse', 'RemoteRepair' and 'RemoteCompose'. For the other buttons, the server must send a bitwise flag in the packet [MsgVipFunctionValidNotify](../src/network/messages/msgvipfunctionvalidnotify.md) to the client to determine this visibility. It is assumed the server would send this packet shortly after the player has logged in.
+The player must be at least VIP Level 1 before the VIP button is shown above the chat bar. The VIP dialog will always show 'RemoteWarehouse', 'RemoteRepair' and 'RemoteCompose'. For the other buttons, the server must send a bitwise flag in the packet [MsgVipFunctionValidNotify](../network/messages/msgvipfunctionvalidnotify.md) to the client to determine this visibility. It is assumed the server would send this packet shortly after the player has logged in.
 
 The values of the bitwise flag can be found in the client's [GUI.ini](../files/content/gui.ini.md) file, with the ini-heading `[338-$BIT_POSITION]`, inside the ini-section would be the VIP Button Function. For example: [338-11] -> `Vip_HairstyleBtn` - shows that the 11th bitflag decides whether or not to show a button in the VIP dialog with hover-over text that the player has access to VIP Hairstyles.
 
@@ -81,10 +81,10 @@ The values of the bitwise flag to show or hide a button in the VIP dialog for cl
 | 14 | 0x4000 | VIP Furniture | Info |
 | 15 | 0x8000 | Lottery | Info |
 
-Therefore, the bitflag values for each VIP Level that the server must send via [MsgVipFunctionValidNotify](../src/network/messages/msgvipfunctionvalidnotify.md) are:
+Therefore, the bitflag values for each VIP Level that the server must send via [MsgVipFunctionValidNotify](../network/messages/msgvipfunctionvalidnotify.md) are:
 
 * Level 1: `0x9784`
-* Level 2: `0xD785`
+* Level 2: `0xD7A4`
 * Level 3: `0xD7E5`
 * Level 4: `0xFFEF`
 * Level 5: `0xFFEF`
