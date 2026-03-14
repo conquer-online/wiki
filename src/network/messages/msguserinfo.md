@@ -10,6 +10,7 @@ This message is sent to the game client from the game server to initialize the h
 * [Patch 5065](#patch-5065)
 * [Patch 5095](#patch-5095)
 * [Patch 5165](#patch-5165)
+* [Patch 5517](#patch-5517)
 
 ## Patch 4267
 
@@ -239,4 +240,63 @@ This message is sent to the game client from the game server to initialize the h
 | Name | Description | Example |
 |:-------|:--------|:--------|
 | Name | Name of the character | Player |
+| Mate | The character the player is married to | None |
+
+## Patch 5517 (Mac: 1029)
+
+#### Message Definition
+
+🚩 Incomplete - Reverse engineering Mac Client Binary 1029 (same release date as PC 5517), some unknown fields (possibly padding) remain 
+
+| Pos | Type | Name | Description | Example |
+|:-------|:--------|:--------|:--------|:--------|
+| 0  | UInt16 | [MsgSize](index.md#message-header) | Size of the message | 120 |
+| 2  | UInt16 | [MsgType](index.md#message-header) | Type of message | 1006 |
+| 4  | UInt32 | [Hero ID](../identifiers.md) | Unique identifier for the character | 1000000 |
+| 8  | UInt16 | ShowType | Character display type | 2 |
+| 10 | UInt32 | [Look](../../algorithms/calculations/roleview.md) | Character view mesh | 501002 |
+| 14 | UInt16 | [Hair](../../constants/hairstyles.md) | Hairstyle and hair color | 535 |
+| 16 | UInt32 | Money | Earned virtual player currency in pocket | 10000 |
+| 20 | UInt32 | EMoney | Paid virtual player currency in pocket | 0 |
+| 24 | UInt64 | Experience | Leveling experience | 1000 |
+| 32 | UInt32 | Unknown | Unknown | - |
+| 36 | UInt32 | Unknown | Unknown | - |
+| 40 | UInt32 | Unknown | Unknown | - |
+| 44 | UInt32 | Unknown | Unknown | - |
+| 48 | UInt32 | Unknown | Unknown | - |
+| 52 | UInt16 | [Strength](../../algorithms/calculations/attributes.md) | Physical attack power | 7 |
+| 54 | UInt16 | [Agility](../../algorithms/calculations/attributes.md) | Physical accuracy | 2 |
+| 56 | UInt16 | [Vitality](../../algorithms/calculations/attributes.md) | Health increase | 4 |
+| 58 | UInt16 | [Spirit](../../algorithms/calculations/attributes.md) | Mana increase | 0 |
+| 60 | UInt16 | [Attributes](../../algorithms/calculations/attributes.md) | Unspent attribute points | 0 |
+| 62 | UInt16 | Life | Current health of the character | 99 |
+| 64 | UInt16 | Mana | Current mana of the character | 0 |
+| 66 | UInt16 | Pk | PK points from slaying other players | 0 |
+| 68 | Byte | Level | Character level | 1 |
+| 69 | Byte | [Profession](../../constants/heroprofession.md) | Current profession | 10 |
+| 70 | Byte | [Previous Profession](../../constants/heroprofession.md) | Profession before latest rebirth | 0 |
+| 71 | Byte | [First Profession](../../constants/heroprofession.md) | Profession before first rebirth | 0 |
+| 72 | Byte | Unknown | Unknown | - |
+| 73 | Byte | Metempsychosis | Number of rebirths | 0 |
+| 74 | Byte | Unknown | Unknown | - |
+| 75 | UInt32 | Quiz Points | Total quiz points | 0 |
+| 79 | UInt16 | Enlighten Points | [Enlightenment](../../algorithms/calculations/enlightenment.md) points progress | 0 |
+| 81 | UInt16 | Enlighten Exp | [Enlightenment](../../algorithms/calculations/enlightenment.md) experience | 0 |
+| 83 | UInt16 | Unknown | Unknown | - |
+| 85 | UInt16 | Unknown | Unknown | - |
+| 87 | UInt32 | [VIP Level](../../constants/vip.md) | VIP level | 2 |
+| 91 | UInt16 | Title ID | ID of title text next to name (from [title.ini](../../files/content/title.ini.md)) | 0 |
+| 93 | UInt32 | Unknown | Unknown | - |
+| 97 | Byte | Unknown | Unknown | - |
+| 98 | UInt32 | Unknown | Unknown | - |
+| 102 | UInt32 | Unknown | Unknown | - |
+| 106 | UInt32 | Unknown | Unknown | - |
+| 110 | [NetStringPacker](../stringpacker.md) | Strings | Group of length prefixed strings | |
+
+#### NetStringPacker Fields
+
+| Name | Description | Example |
+|:-------|:--------|:--------|
+| Name | Name of the character | Player |
+| Empty | Empty | |
 | Mate | The character the player is married to | None |
