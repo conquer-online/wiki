@@ -58,28 +58,28 @@ The player must be at least VIP Level 1 before the VIP button is shown above the
 
 The values of the bitwise flag can be found in the client's [GUI.ini](../files/content/gui.ini.md) file, with the ini-heading `[338-$BIT_POSITION]`, inside the ini-section would be the VIP Button Function. For example: [338-11] -> `Vip_HairstyleBtn` - shows that the 11th bitflag decides whether or not to show a button in the VIP dialog with hover-over text that the player has access to VIP Hairstyles.
 
-Some buttons perform an action, such as opening Teleport Team dialog. Marked as Action. Some buttons only have hover-over text such as informing how many flowers they can send based on their VIP level.
+Some buttons perform an action, such as opening Teleport Team dialog. Some buttons only have hover-over text such as informing how many flowers they can send based on their VIP level.
 
 The values of the bitwise flag to show or hide a button in the VIP dialog for client 5517 are:
 
-| Bit | Value | Feature | Button Action or Info |
+| Bit | Value | Feature | Button Action |
 |:-----|:-------|:---------|:-------------|
-| 0 | 0x0001 | Portal Teleport | Action |
-| 1 | 0x0002 | VIP Avatars | Action |
-| 2 | 0x0004 | Flower | Info |
-| 3 | 0x0008 | Frozen Grotto 5th Floor | Info |
-| 4 | 0x0010 | Portal Teleport (Team) | Action |
-| 5 | 0x0020 | City Teleport | Action |
-| 6 | 0x0040 | City Teleport (Team) | Action |
-| 7 | 0x0080 | Blesstime | Info |
-| 8 | 0x0100 | Offline Training Hours | Info |
-| 9 | 0x0200 | Refine/Purify time extension | Info |
-| 10 | 0x0400 | Additional Friend Slots | Info |
-| 11 | 0x0800 | VIP Hairstyles | Info |
-| 12 | 0x1000 | Free Labyrinth Access | Info |
-| 13 | 0x2000 | More Daily Quests | Info |
-| 14 | 0x4000 | VIP Furniture | Info |
-| 15 | 0x8000 | Lottery | Info |
+| 0 | 0x0001 | Portal Teleport | Open Dialog |
+| 1 | 0x0002 | VIP Avatars | Open Dialog |
+| 2 | 0x0004 | Flower | Hover-Over Text Only |
+| 3 | 0x0008 | Frozen Grotto 5th Floor | Hover-Over Text Only |
+| 4 | 0x0010 | Portal Teleport (Team) | Open Dialog |
+| 5 | 0x0020 | City Teleport | Open Dialog |
+| 6 | 0x0040 | City Teleport (Team) | Open Dialog |
+| 7 | 0x0080 | Blesstime | Hover-Over Text Only |
+| 8 | 0x0100 | Offline Training Hours | Hover-Over Text Only |
+| 9 | 0x0200 | Refine/Purify time extension | Hover-Over Text Only |
+| 10 | 0x0400 | Additional Friend Slots | Hover-Over Text Only |
+| 11 | 0x0800 | VIP Hairstyles | Hover-Over Text Only |
+| 12 | 0x1000 | Free Labyrinth Access | Hover-Over Text Only |
+| 13 | 0x2000 | More Daily Quests | Hover-Over Text Only |
+| 14 | 0x4000 | VIP Furniture | Hover-Over Text Only |
+| 15 | 0x8000 | Lottery | Hover-Over Text Only |
 
 Therefore, the bitflag values for each VIP Level that the server must send via [MsgVipFunctionValidNotify](../network/messages/msgvipfunctionvalidnotify.md) are:
 
