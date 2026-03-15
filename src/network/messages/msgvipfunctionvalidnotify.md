@@ -1,8 +1,8 @@
 # MsgVipFunctionValidNotify
 
-This message is sent from the game server to the client to enable [VIP](../../constants/vip.md) feature buttons in the VIP Dialog. The message contains a single bitwise flag that determines which VIP buttons are visible. It is assumed the server sends this packet shortly after the player has logged in.
+This message is sent from the game server to the client to enable [VIP](../../constants/vip.md) feature buttons in the VIP Dialog. The message contains a single bitwise flag that determines which VIP buttons are visible. The server should send this message during the login sequence while processing [MsgUserInfo](msguserinfo.md)
 
-This packet cannot be sent by the client.
+This message cannot be sent to the server by the client.
 
 ## Patch 5517 (Mac: 1029)
 

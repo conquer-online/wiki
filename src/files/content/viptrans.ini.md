@@ -2,7 +2,7 @@
 
 This file defines the teleport destinations available to [VIP players](../../constants/vip.md). It is read by the client to populate the City Teleport (VIP Level 2+) & Portal Teleport (VIP Level 3+) dialog buttons.
 
-City Teleport is the major cities such as  TwinCity, PhoenixCastle, ApeCity, DesertCity & BirdIsland
+City Teleport is the major cities such as TwinCity, PhoenixCastle, ApeCity, DesertCity & BirdIsland
 
 Portal Teleport is a section of the map, for example: `WindPlain-Turtledove` - for the Turtledove section of Windplain.
 
