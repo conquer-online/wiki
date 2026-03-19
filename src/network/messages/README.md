@@ -152,7 +152,7 @@ The table below is an abstract and directory of message types used in various pa
 | 2048 | [MsgEquipLock](msgequiplock.md) |  |
 | 2050 | [MsgPigeon](msgpigeon.md) |  |
 | 2051 | [MsgPigeonQuery](msgpigeonquery.md) |  |
-| 2064 | [MsgPeerage](msgpeerage.md) |  |
+| 2064 | [MsgPeerage](msgpeerage.md) | Donation & Leaderboard for [Nobility](../../features/nobility.md) |
 | 2065 | [MsgGuide](msgguide.md) |  |
 | 2066 | [MsgGuideInfo](msgguideinfo.md) |  |
 | 2067 | [MsgContribute](msgcontribute.md) |  |
