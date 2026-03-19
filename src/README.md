@@ -30,6 +30,7 @@ This wiki is broken up into multiple sections:
 
 * [Algorithms](algorithms): Calculations made for attacks, rates, skill distances, and more.
 * [Constants](constants/): Hard-coded constants found in and across messages and the client.
+* [Features](features/): In-game systems & mechanics and how they work on the server and client.
 * [Files](files/): File formats and definitions for various content types.
 * [Network](network/): Message structures and client-server networking.
 * [Renderers](renderers/): System descriptions for rendering content in the client.

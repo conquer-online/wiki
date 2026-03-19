@@ -16,6 +16,10 @@
         - [Item Composition](algorithms/rates/item-composition.md)
         - [Item Sockets](algorithms/rates/item-sockets.md)
 
+- [Features](features/README.md)
+    - [Nobility](features/nobility.md)
+    - [VIP](features/vip.md)
+
 - [Constants](constants/README.md)
     - [Action](constants/actions.md)
     - [Gem](constants/gem.md)
@@ -25,7 +29,6 @@
     - [Look Face](constants/lookface.md)
     - [PK Mode](constants/pkmode.md)
     - [Role Type](constants/roletype.md)
-    - [VIP](constants/vip.md)
 
 - [Files](files/README.md)
     - [Compression](files/compression/README.md)
@@ -47,6 +50,7 @@
         - [WeaponSkillLevelExp.ini](files/content/weaponskilllevelexp.ini.md)
         - [WeaponSkillName.ini](files/content/weaponskillname.ini.md)
         - [NpcX.ini](files/content/npcx.ini.md)
+        - [Peerage.ini](files/content/peerage.ini.md)
     - [Formats](files/formats/README.md)
         - [DMAP](files/formats/dmap.md)
         - [TME](files/formats/tme.md)
