@@ -19,7 +19,7 @@ The message footer in Conquer Online was added in patch 5018. The footer contain
 
 The table below is an abstract and directory of message types used in various patches of Conquer Online.
 
-For some message types, in later client versions (at least in patch 5517 [citation needed]), the message type ID changed to a 5-digit value. These are noted in the table in brackets, see the individual message documentation for which patch version applies.
+For some message types, in later client versions (at least in patch 5517 [citation needed]), the message type changed to a 5-digit value. These are noted in the table in brackets, see the individual message documentation for which patch version applies.
 
 
 | Type | Name | Abstract |
