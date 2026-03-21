@@ -49,6 +49,7 @@
         - [WeaponSkillName.ini](files/content/weaponskillname.ini.md)
         - [NpcX.ini](files/content/npcx.ini.md)
     - [Formats](files/formats/README.md)
+        - [DAT](files/formats/dat.md)
         - [DMAP](files/formats/dmap.md)
         - [TME](files/formats/tme.md)
 
