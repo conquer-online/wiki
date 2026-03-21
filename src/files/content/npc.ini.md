@@ -39,12 +39,7 @@ FixDir=0
 | `BlazeMotion`   | int64  | Motion ID in C3 when Hovering-Over or Interacting with NPC                                                        |
 | `RestMotion`    | int64  | Motion ID in C3 that plays periodically when on-screen & not interacting                                          |
 | `Effect`        | string | Name of a 3DEffect in C3 to add to the NPC. Default is none.                                                      |
-| `ASB`           | int    | Alpha Source Blend [1]                                                                                            |
-| `ADB`           | int    | Alpha Destination Blend [1]                                                                                       |
+| `ASB`           | int    | Alpha Source Blend. See: [3DEffect.ini](./3DEffect.ini.md)                                                        |
+| `ADB`           | int    | Alpha Destination Blend [3DEffect.ini](./3DEffect.ini.md)                                                         |
 | `FixDir`        | uint   | Fixed facing direction. `0` = NPC rotates to where player is on interaction. `1` = NPC stays fixed direction      |
 | `ZoomPercent`   | int    | *(Optional)* Model scale as a percentage.  Defaults to `100`                                                      |
-
-
-### References
-
-[1] https://gitlab.com/conquer-online/wiki/-/wikis/Files/3DEffect.ini
