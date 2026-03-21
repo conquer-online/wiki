@@ -30,6 +30,7 @@
 - [Files](files/README.md)
     - [Compression](files/compression/README.md)
     - [Content](files/content/README.md)
+        - [3DEffect.ini](files/content/3DEffect.ini.md)
         - [3DMotion.ini](files/content/3dmotion.ini.md)
         - [Cn_Res.ini](files/content/cn_res.ini.md)
         - [Fuse.ini](files/content/fuse.ini.md)

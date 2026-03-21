@@ -1,0 +1,1 @@
+# 3DEffect.ini
