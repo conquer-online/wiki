@@ -1,6 +1,6 @@
 # Messages
 
-This subsection organizes messages by the name found in the assembly of the macOS game client. See the table before for a mapping from message type to message definition.
+This subsection organizes messages by the name found in the assembly of the macOS game client. See the table below for a mapping from message type to message definition.
 
 ### Message Header
 
@@ -19,20 +19,23 @@ The message footer in Conquer Online was added in patch 5018. The footer contain
 
 The table below is an abstract and directory of message types used in various patches of Conquer Online.
 
+For some message types, in later client versions the message type changed to a 5-digit value. These are noted in the table in brackets, see the individual message documentation for which patch version applies.
+
+
 | Type | Name | Abstract |
 |:-----|:-----|:---------|
 | 1001 | [MsgRegister](msgregister.md) | New character creation |
 | 1004 | [MsgTalk](msgtalk.md) | Game chat and system messages to clients |
-| 1005 | [MsgWalk](msgwalk.md) | Role movement on the ground |
+| 1005 (10005) | [MsgWalk](msgwalk.md) | Role movement on the ground |
 | 1006 | [MsgUserInfo](msguserinfo.md) | Character information on login |
 | 1008 | [MsgItemInfo](msgiteminfo.md) | Details on an player owned item |
 | 1009 | [MsgItem](msgitem.md) | Request to use an item |
-| 1010 | [MsgAction](msgaction.md) | General action for a player or entity |
+| 1010 (10010) | [MsgAction](msgaction.md) | General action for a player or entity |
 | 1012 | [MsgTick](msgtick.md) | Round-trip tick validation |
-| 1014 | [MsgPlayer](msgplayer.md) | Spawn a player or entity |
+| 1014 (10014) | [MsgPlayer](msgplayer.md) | Spawn a player or entity |
 | 1015 | [MsgName](msgname.md) | Client string update request  |
 | 1016 | [MsgWeather](msgweather.md) | Set weather on the game map |
-| 1017 | [MsgUserAttrib](msguserattrib.md) | Set user attributes for client |
+| 1017 (10017) | [MsgUserAttrib](msguserattrib.md) | Set user attributes for client |
 | 1019 | [MsgFriend](msgfriend.md) | Manages friend and enemy lists |
 | 1022 | [MsgInteract](msginteract.md) | Interact or attack player or entity |
 | 1023 | [MsgTeam](msgteam.md) | Manages a team of players |
