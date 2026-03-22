@@ -41,7 +41,7 @@ The features & benefits of each VIP level:
 | Remote all warehouses                   |          |          |          |          |          |    ✓     |
 | Portal Teleport Team 🟠🔷♦️             |          |          |          |          |          |    ✓     |
 
-🟠 Sourced from Client 5517 [CN_Res.ini](../files/content/cn_res.ini.md). If not marked, then it is sourced from [Archived Documentation](https://web.archive.org/web/20170703175033/http://vips.99.com/CO/rank.html) 
+🟠 Sourced from Client 5517 [CN_Res.ini](../files/content/cn_res.ini.md). If not marked, then it is sourced from official documentation
 
 ♦️ If the player is part of a Team, they can invoke a teleport for the whole team. A message is sent to each team member asking to confirm the teleport. The team teleport functionality appears to be handled via [MsgVipUserHandle](../network/messages/msgvipuserhandle.md) (further analysis is required)
 
