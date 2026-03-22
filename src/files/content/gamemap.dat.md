@@ -36,7 +36,7 @@ This file is loaded when the client starts. It maps the Map IDs to either the [D
 
 ### Parsing Script
 
-The following is a simple python script which reads and parses the `GameMap.dat`. Passed the filepath as the first arg & it will output each map ID alongside its path. Example: `python3 gamemap_decode.py GameMap.dat`
+The following is a simple python script which reads and parses the `GameMap.dat`. Pass the filepath as the first arg & it will output each map ID alongside its path. Example: `python3 gamemap_decode.py GameMap.dat`
 
 ```python
 import struct, sys
@@ -44,8 +44,8 @@ import struct, sys
 with open(sys.argv[1], "rb") as f:
     count, = struct.unpack("<I", f.read(4)) # Little-Endian uint32 - Header (Record Count)
     for idx in range(count):
-        map_id, name_len = struct.unpack("<II", f.read(8)) # Read ID & Map Name
-        name = f.read(name_len).decode("ascii")
+        map_id, name_len = struct.unpack("<II", f.read(8)) # Read ID & Length of Map Name
+        name = f.read(name_len).decode("ascii") # Read the map name
         f.read(4) # Unknown field, always 256
         print(f"{map_id}: {name}")
 ```
