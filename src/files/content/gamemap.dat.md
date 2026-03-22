@@ -17,12 +17,12 @@ This file is loaded when the client starts. It maps the Map IDs to either the [D
 
 ### Record Structure
 
-| Offset     | Size     | Type   | Description                       | Example             |
-|:-----------|:---------|:-------|:----------------------------------|:--------------------|
-| 0          | 4        | UInt32 | Map ID                            | `1000`              |
-| 4          | 4        | UInt32 | Length of the filepath            | `17`                |
-| 8          | [Length] | String | Map path (Ascii Unterminated)     | `map/map/desert.7z` |
-| 8 + Length | 4        | UInt32 | Unknown - Always 256 | `256`               |
+| Offset     | Size     | Type   | Description                   | Example             |
+|:-----------|:---------|:-------|:------------------------------|:--------------------|
+| 0          | 4        | UInt32 | Map ID                        | `1000`              |
+| 4          | 4        | UInt32 | Length of the filepath        | `17`                |
+| 8          | [Length] | String | Map path (Ascii Unterminated) | `map/map/desert.7z` |
+| 8 + Length | 4        | UInt32 | Unknown - Always 256          | `256`               |
 
 ### Example Entries
 
