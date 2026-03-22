@@ -1,6 +1,6 @@
 # VipTrans.ini
 
-This file defines the teleport destinations available to [VIP players](../../constants/vip.md). It is read by the client to populate the City Teleport (VIP Level 2+) & Portal Teleport (VIP Level 3+) dialog buttons.
+This file defines the teleport destinations available to [VIP players](../../features/vip.md). It is read by the client to populate the City Teleport (VIP Level 2+) & Portal Teleport (VIP Level 3+) dialog buttons.
 
 City Teleport is the major cities such as TwinCity, PhoenixCastle, ApeCity, DesertCity & BirdIsland
 

@@ -284,7 +284,7 @@ This message is sent to the game client from the game server to initialize the h
 | 81 | UInt16 | Enlighten Exp | [Enlightenment](../../algorithms/calculations/enlightenment.md) experience | 0 |
 | 83 | UInt16 | Unknown | Unknown | - |
 | 85 | UInt16 | Unknown | Unknown | - |
-| 87 | UInt32 | [VIP Level](../../constants/vip.md) | VIP level | 2 |
+| 87 | UInt32 | [VIP Level](../../features/vip.md) | VIP level | 2 |
 | 91 | UInt16 | Title ID | ID of title text next to name and effect (from [title.ini](../../files/content/title.ini.md)) | 0 |
 | 93 | UInt32 | Unknown | Unknown | - |
 | 97 | Byte | Unknown | Unknown | - |
