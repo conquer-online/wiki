@@ -2,9 +2,13 @@
 
 This file defines the 3D model, animations, and rendering properties for each NPC type. The server references NPCs by their type ID in [MsgNpcInfo](../../network/messages/msgnpcinfo.md) the client uses this file to know how to render them.
 
-## File Format
+## Table of Contents
 
-### INI Headings
+* [Patch 5517](#patch-5517)
+
+## Patch 5517
+
+✅ Verified (Client)
 
 Each section header follows the format:
 
@@ -12,13 +16,11 @@ Each section header follows the format:
 [NpcTypeX]
 ```
 
-Where `X` is the NPC type ID. The client parses it by stripping the `NpcType` prefix and reading the int. 
+Where `X` is the NPC type ID. The client parses it by stripping the `NpcType` prefix and reading the int.
 
-### INI Sections
+Below is an example entry using the definition above:
 
-Each section defines one NPC type.
-
-```
+```ini
 [NpcType1]
 Name=Storekeeper
 SimpleObjID=0211

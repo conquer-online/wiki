@@ -4,9 +4,13 @@ This file defines the appearance for NPC types that are rendered as full charact
 
 These are NPCs which are the class promotion NPCs and dressed with weapons and armor.
 
-## File Format
+## Table of Contents
 
-### INI Headings
+* [Patch 5517](#patch-5517)
+
+## Patch 5517
+
+✅ Verified (Client)
 
 Each section header follows the format:
 
@@ -16,11 +20,9 @@ Each section header follows the format:
 
 Where `X` is the NPC type ID. Unlike [npc.ini](npc.ini.md), there is no `NpcType` prefix.
 
-### INI Sections
+Below is an example entry using the definition above:
 
-Each section defines one NPC type.
-
-```
+```ini
 [5000]
 Name=WarriorGod
 AddSize=1
