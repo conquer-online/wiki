@@ -309,3 +309,5 @@
     - [Account Password](strings/accountpassword.md)
     - [Account Username](strings/accountusername.md)
     - [Hero Name](strings/heroname.md)
+
+- [Glossary](GLOSSARY.md)
