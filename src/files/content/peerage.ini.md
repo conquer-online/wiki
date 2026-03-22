@@ -65,6 +65,6 @@ ChatFont=nob_MarquisFontJPG
 | `StatusIconEffect` | string | Glowing status icon in C3 (`c3/effect/other/rank`)                                                                                           |
 | `Effect1`          | string | Text 3D effect that appears on the hero in C3 (`c3/effect/other/rank/letter`)                                                                |
 | `Effect2`          | string | Crown effect that appears on the hero in C3 (`c3/effect/other/rank/coronet`)                                                                 |
-| `Button`           | string | Button for the rank in the Contribute Dialog. Defined in [Control.ani](../content/control.ani.md) (`data/interface/Style01/checontribute`)   |
-| `ChatIcon`         | string | Rank icon in the whisper chat window. Defined in [chatContribute.ani](chatContribute.Ani) (`data/interface/Style01/chatsystem/nobility_JPG`) |
-| `ChatFont`         | string | Rank name in the whisper chat window. Defined in [chatContribute.Ani](chatContribute.Ani) (`data/interface/Style01/chatsystem/nobility_JPG`) |
+| `Button`           | string | Button for the rank in the Contribute Dialog. Defined in [Control.ani](./control.ani.md) (`data/interface/Style01/checontribute`)   |
+| `ChatIcon`         | string | Rank icon in the whisper chat window. Defined in [chatContribute.ani](./chatContribute.Ani) (`data/interface/Style01/chatsystem/nobility_JPG`) |
+| `ChatFont`         | string | Rank name in the whisper chat window. Defined in [chatContribute.Ani](./chatContribute.Ani) (`data/interface/Style01/chatsystem/nobility_JPG`) |
