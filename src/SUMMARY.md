@@ -308,6 +308,7 @@
     - [RC5](security/rc5.md)
     - [SRP6](security/srp6.md)
     - [TQ](security/tq.md)
+    - [TQ File Cipher](security/tqfile.md)
 
 - [Strings](strings/README.md)
     - [Account Password](strings/accountpassword.md)
