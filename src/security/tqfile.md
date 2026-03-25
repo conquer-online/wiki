@@ -2,6 +2,11 @@
 
 TQ uses a symmetric file cipher used to encrypt & decrypt some data files. This page explains how to decrypt and encrypt game data files using this cipher.
 
+
+> ⚠️ __WARNING__
+>
+> Some data files use a different encryption/decryption method. This cipher only decrypts & encrypts files marked as 'TQ File Cipher' on [DAT](../files/formats/dat.md). Other encryption types like RSA will not work with this method.
+
 ## Table of Contents
 
 - [Cipher Overview](#cipher-overview)
