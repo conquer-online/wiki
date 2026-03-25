@@ -4,21 +4,21 @@ TQ uses a symmetric file cipher used to encrypt & decrypt some data files. This 
 
 ## Table of Contents
 
-- [Algorithm Overview](#algorithm-overview)
+- [Cipher Overview](#cipher-overview)
 - [Example Scripts](#example-scripts)
   - [Decryption](#decryption)
   - [Encryption](#encryption)
 
-## Algorithm Overview
+## Cipher Overview
 
-The algorithm uses Microsoft's classic `rand()` algorithm, called "Linear Congruential Generator" (LCG). This algorithm is deterministic, so using the same seed value will produce the same output every time. The cipher also performs a bitrotate & XOR with the key.
+This cipher uses Microsoft's classic `rand()` algorithm, called "Linear Congruential Generator" (LCG) to generate pseudorandom numbers as the key, so using the same seed value will produce the same output (set of random numbers) every time. For each byte, the cipher then performs an XOR with the key & a bitrotate to decrypt (the inverse to encrypt).
 
 In order to decrypt or encrypt the data file, we need to know the seed value. The seed is hardcoded in the client binary, but a list can be found in: [DAT](../files/formats/dat.md) 
 
 
 **Key Generation** 
 
-The key size is hardcoded in the client binary, it is `128`. The key bytes will **always** be the same value when given the same seed. With the seed, we can derive the 128 independent key bytes by re-implementing Microsoft's classic `rand`:
+The key size is hardcoded in the client binary, it is `128`. The key bytes will **always** be the same value when given the same seed. With the seed, we can derive the 128 independent key bytes by implementing Microsoft's classic `rand`:
 
 ```
 n = seed * 0x343FD + 0x269EC3
@@ -46,7 +46,7 @@ The following snippets implement the above logic in python. These scripts have *
 
 ### Decryption
 
-This script takes a encrypted game data file as `arg1` and the seed value in either decimal (9527) or hex (0x2537). The seeds for each file can be found in: [DAT](../files/formats/dat.md). It is important to use the correct seed value, otherwise the decrypted output will be garbled.
+This script takes a encrypted game data file as `arg1` and the seed value as `arg2` in either decimal (9527) or hex (0x2537). The seeds for each file can be found in: [DAT](../files/formats/dat.md). It is important to use the correct seed value, otherwise the decrypted output will be garbled.
 
 The result will be written to the same directory as the encrypted file with the appendix `_decrypted`, if the decrypted file already exists it will be overwritten!
 
@@ -84,7 +84,7 @@ Example: `python3 tqdecrypt.py magictypeop.dat 9527`
 
 ### Encryption
 
-This script takes an unencrypted game data file as `arg1` and seed value in either decimal (9527) or hex (0x2537). The seeds for each file can be found in: [DAT](../files/formats/dat.md). It is important to use the correct seed value, otherwise the client will not be able to decrypt the file and throw an error.
+This script takes an unencrypted game data file as `arg1` and seed value as `arg2` in either decimal (9527) or hex (0x2537). The seeds for each file can be found in: [DAT](../files/formats/dat.md). It is important to use the correct seed value, otherwise the client will not be able to decrypt the file and throw an error.
 
 The result will be written to the same directory as the encrypted file with the appendix `_encrypted`, if the encrypted file already exists it will be overwritten!
 
