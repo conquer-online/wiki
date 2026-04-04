@@ -26,7 +26,7 @@ A DAT file is generic data. DAT files are either plain-text, binary-encoded, or 
 | [./ini/AutoAllot.dat](../content/autoallot.dat)                 | Unknown & No references to it (Unused?)                                 |
 | [./ini/MyAnimate.dat](../content/myanimate.dat)                 | RSA Encrypted                                                           |
 | [./ini/LevelExp.dat](../content/levelexp.dat)                   | Unknown & No references to it (Unused?)                                 |
-| [./ini/Shop.dat](../content/shop.dat)                           | Unencrypted - Plain Text                                                           |
+| [./ini/Shop.dat](../content/shop.dat)                           | Unencrypted - Plain Text                                                |
 | [./ini/Play.dat](../content/play.dat)                           | Custom Encrypted: Subtract 6 from each byte (Used in play.exe launcher) |
 | [./ini/ShowHandTable.dat](../content/showhandtable.dat)         | RSA Encrypted                                                           |
 | [./ini/suittype.dat](../content/suittype.dat)                   | RSA Encrypted                                                           |
