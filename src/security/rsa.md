@@ -31,7 +31,9 @@ The compressed & encrypted file is split into 256-byte ciphertext blocks. Each b
 
 The client binary obfuscates the baked-in public key. Rather than storing it as plain PEM format, the 2048-bit modulus is stored as 64 uint32 words in an obfuscated form, reconstructed at runtime by a rolling forward XOR of adjacent elements.
 
-In the binary, the constructor of `CConfigMgr` reconstructs the public key. First by fetching a static constant array of 64 consecutive uint32 words, then applying a rolling XOR over adjacent elements to reconstruct the 64 modulus words, which are passed to statically linked OpenSSL RSA functions along with the fixed, standard exponent `65537` to construct the public key.
+In the binary, the constructor of `CConfigMgr` reconstructs the public key. First by fetching a static constant array of 64 uint32 words, then applying a rolling XOR over adjacent elements to reconstruct the 64 modulus words, which are passed to statically linked OpenSSL RSA functions along with the fixed, standard exponent `65537` to construct the public key.
+
+In the Mac binary, the 64 uint32 words are stored a contiguous static array, making it very easy to extract. However, in the Windows binary, they are not contiguous but use a mix of `mov` instructions (still extractable but not as easy).
 
 Below is a script which can deobfuscate the public key. You must supply it the 64 uint32 obfuscated modulus words which can be found in the client binary in the CConfigMgr constructor.
 
