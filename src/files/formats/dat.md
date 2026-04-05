@@ -6,7 +6,7 @@ A DAT file is generic data. DAT files are either plain-text, binary-encoded, or 
 
 * [**TQ File Cipher**](../../security/tq.md): Files which are marked as encrypted by TQ File Cipher. These files can be decrypted & re-encrypted. The seed for each file is listed in brackets.
 
-* **RSA**: Files which are marked RSA have been encrypted by a TQ 2048-bit RSA private key. The public key is baked and obfuscated in the client binary. While it's possible to extract the public key from the binary to decrypt the file, it is not possible to re-encrypt without the private key.
+* [**RSA**](../../security/rsa.md): Files which are marked RSA have been encrypted by a TQ 2048-bit RSA private key. The public key is baked and obfuscated in the client binary. While it's possible to extract the public key from the binary to decrypt the file, it is not possible to re-encrypt without the private key.
 
 * **SWF**: Files which are marked SWF are actually a SWF file (Shockwave Flash). Rename the extension to SWF. jpexs-decompiler is a good & free decompiler for this file type.
  
