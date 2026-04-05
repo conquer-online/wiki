@@ -25,7 +25,6 @@
     - [Look Face](constants/lookface.md)
     - [PK Mode](constants/pkmode.md)
     - [Role Type](constants/roletype.md)
-    - [VIP](constants/vip.md)
 
 - [Files](files/README.md)
     - [Compression](files/compression/README.md)
@@ -295,6 +294,10 @@
         - [MsgWeather](network/messages/msgweather.md)
     - [NetStringPacker](network/stringpacker.md)
     - [Timestamps](network/timestamps.md)
+
+- [Features](features/README.md)
+    - [Nobility](features/nobility.md)
+    - [VIP](features/vip.md)
 
 - [Renderers](renderers/README.md)
     - [Hero](renderers/hero.md)
