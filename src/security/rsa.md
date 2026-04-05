@@ -84,11 +84,9 @@ With the public key extracted, we can now decrypt the game files via this proces
 4. Concatenate all decrypted chunks.
 5. Gzip-decompress the concatenated payload.
 
-This script takes an encrypted game data file as `arg1`.
+The following snippet implements the above logic in python. This script has **no error handling, checks or dependencies** as it is intentionally minimal for readability. This script takes an encrypted game data file path as `arg1`.
 
-The following snippet implements the above logic in python. This script has **no error handling, checks or dependencies** as it is intentionally minimal for readability.
-
-The result will be written to the same directory as the encrypted file with the appendix `_decrypted`, if the decrypted file already exists it will be overwritten!
+The result will be written to the same directory as the encrypted file with the suffix `_decrypted`, if the decrypted file already exists it will be overwritten!
 
 ```python
 import sys, zlib
