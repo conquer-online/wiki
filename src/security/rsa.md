@@ -21,7 +21,7 @@ TQ uses RSA PKCS#1 2048-bit asymmetric encryption to protect some game data file
 
 ## Cipher Overview
 
-TQ first gzip-compresses then encrypts the file using their **2048-bit RSA private key** when the client is compiled. The client has the **public key** baked into the binary and uses it to decrypt the file then decompresses.
+TQ first gzip-compresses then encrypts the file using their **2048-bit RSA private key** when the client is compiled. The client has the **public key** baked into the binary and uses it to decrypt the file then decompress it.
 
 It's possible to extract the public key from the client binary to decrypt the files. However, without the original private key it is not possible to re-encrypt the file instead the alternative is to patch the client binary (see [Encryption](#encryption))
 
