@@ -53,7 +53,7 @@ The following snippets implement the above logic in python. These scripts have *
 
 This script takes an encrypted game data file as `arg1` and the seed value as `arg2` in either decimal (9527) or hex (0x2537). The seeds for each file can be found in: [DAT](../files/formats/dat.md). It is important to use the correct seed value; otherwise, the decrypted output will be garbled.
 
-The result will be written to the same directory as the encrypted file with the appendix `_decrypted`, if the decrypted file already exists it will be overwritten!
+The result will be written to the same directory as the encrypted file with the suffix `_decrypted`, if the decrypted file already exists it will be overwritten!
 
 
 ```python
@@ -91,7 +91,7 @@ Example: `python3 tqdecrypt.py magictypeop.dat 9527`
 
 This script takes an unencrypted game data file as `arg1` and seed value as `arg2` in either decimal (9527) or hex (0x2537). The seeds for each file can be found in: [DAT](../files/formats/dat.md). It is important to use the correct seed value, otherwise the client will not be able to decrypt the file and throw an error.
 
-The result will be written to the same directory as the encrypted file with the appendix `_encrypted`, if the encrypted file already exists it will be overwritten!
+The result will be written to the same directory as the encrypted file with the suffix `_encrypted`, if the encrypted file already exists it will be overwritten!
 
 
 ```python
