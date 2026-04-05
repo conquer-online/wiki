@@ -51,7 +51,7 @@ The following snippets implement the above logic in python. These scripts have *
 
 ### Decryption
 
-This script takes a encrypted game data file as `arg1` and the seed value as `arg2` in either decimal (9527) or hex (0x2537). The seeds for each file can be found in: [DAT](../files/formats/dat.md). It is important to use the correct seed value, otherwise the decrypted output will be garbled.
+This script takes an encrypted game data file as `arg1` and the seed value as `arg2` in either decimal (9527) or hex (0x2537). The seeds for each file can be found in: [DAT](../files/formats/dat.md). It is important to use the correct seed value; otherwise, the decrypted output will be garbled.
 
 The result will be written to the same directory as the encrypted file with the appendix `_decrypted`, if the decrypted file already exists it will be overwritten!
 
