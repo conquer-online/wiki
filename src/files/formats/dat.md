@@ -4,7 +4,7 @@ A DAT file is generic data. DAT files are either plain-text, binary-encoded, or 
 
 ## DAT File Formats Summary
 
-* [**TQ File Cipher**](../../security/tq.md): Files which are marked as encrypted by TQ File Cipher. These files can be decrypted & re-encrypted. The seed for each file is listed in brackets.
+* [**TQ File Cipher**](../../security/tqfile.md): Files which are marked as encrypted by TQ File Cipher. These files can be decrypted & re-encrypted. The seed for each file is listed in brackets.
 
 * **RSA**: Files which are marked RSA have been encrypted by a TQ 2048-bit RSA private key. The public key is baked and obfuscated in the client binary. While it's possible to extract the public key from the binary to decrypt the file, it is not possible to re-encrypt without the private key.
 
