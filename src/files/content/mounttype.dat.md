@@ -1,0 +1,1 @@
+# mounttype.dat

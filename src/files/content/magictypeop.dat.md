@@ -1,0 +1,1 @@
+# magictypeop.dat
