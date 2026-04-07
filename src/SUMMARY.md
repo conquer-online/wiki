@@ -336,6 +336,7 @@
     - [Key Exchange](security/dh.md)
     - [RC5](security/rc5.md)
     - [SRP6](security/srp6.md)
+    - [RSA File Cipher](security/rsa.md)
     - [TQ](security/tq.md)
     - [TQ File Cipher](security/tqfile.md)
 
