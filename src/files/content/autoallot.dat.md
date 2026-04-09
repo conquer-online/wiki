@@ -1,6 +1,6 @@
 # AutoAllot.dat
 
-This file was **likely** used server-side only, it was distributed with the client but never referenced in any known client binary. It maps the distribution of Strength (Force), Agility (Speed), Vitality (Health), and Spirit (Soul) attribute points for each level before first Rebirth and up to level 120.
+Although this file was distributed with the client, it is **never referenced or used** in any known version (at least 4217 to 6090). It was most likely moved to the server side database (table: `cq_point_allot`) and the file was never removed from the client. It maps the distribution of Strength (Force), Agility (Speed), Vitality (Health), and Spirit (Soul) attribute points for each level before first Rebirth and up to level 120.
 
 ## Table of Contents
 
