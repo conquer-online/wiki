@@ -31,7 +31,7 @@ This message is used entirely for the [Nobility](../../features/nobility.md) (ak
 | 4   | QUERY_MINIMUM | Query minimum donation to be a rank    | Client | `SelectedPeerageRank` (UInt32)                                                                                                                                                             |
 | 4   | QUERY_MINIMUM | Return minimum donation data           | Server | `RemainingDonationAmount` (UInt64), Padding (UInt32), `ExpectedLeaderboardPosition` (UInt32), `CurrentLeaderboardPosition` (UInt32)                                                        |
 
-🟣 `CurrencyType` values: `0` = Silver, `1` = EMoney (CPs), `2` = Bound EMoney (CPs). When donating CPs, the client prefers Bound EMoney (`2`) and falls back to EMoney (`1`) if insufficient.
+🟣 `CurrencyType` values: `0` = Silver, `1` = EMoney (CPs), `2` = Bound EMoney (CPs).
 
 ### Leaderboard Response
 
