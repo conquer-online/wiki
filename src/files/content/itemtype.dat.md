@@ -64,13 +64,13 @@ After decryption, the file is plain-text with an item record-per-line. Each fiel
 | 38    | `emoney_price`       | int32  | Conquer Points (CP) shop price. `0` = not sold for CP                                                                                         |
 | 39    | `emoney_bound_price` | int32  | Bound Conquer Points (CP) Shop Price. `0` = not sold for Bound CP                                                                             |
 | 40    | `expiry_time`        | int32  | Item duration in minutes. Used on some mounts, cosmetics & quest items                                                                        |
-| 41    | `soul_atk_1`         | int32  | Soul - Critical Strike percentage bonus `(value / 100)%`                                                                                                 |
-| 42    | `soul_atk_2`         | int32  | Soul - Skill Critical Strike percentage bonus`(value / 100)%`                                                                                            |
-| 43    | `soul_def_1`         | int32  | Soul - Immunity percentage bonus `(value / 100)%`                                                                                                        |
-| 44    | `soul_atk_3`         | int32  | Soul - Penetration percentage bonus `(value / 100)%`                                                                                                     |
-| 45    | `soul_def_2`         | int32  | Soul - Block percentage bonus `(value / 100)%`                                                                                                           |
-| 46    | `soul_atk_4`         | int32  | Soul - Breakthrough percentage bonus `(value / 10)%`                                                                                                     |
-| 47    | `soul_def_3`         | int32  | Soul - Counteraction percentage bonus `(value / 10)%`                                                                                                    |
+| 41    | `soul_atk_1`         | int32  | Soul - Critical Strike percentage bonus `(value / 100)%`                                                                                      |
+| 42    | `soul_atk_2`         | int32  | Soul - Skill Critical Strike percentage bonus `(value / 100)%`                                                                                |
+| 43    | `soul_def_1`         | int32  | Soul - Immunity percentage bonus `(value / 100)%`                                                                                             |
+| 44    | `soul_atk_3`         | int32  | Soul - Penetration percentage bonus `(value / 100)%`                                                                                          |
+| 45    | `soul_def_2`         | int32  | Soul - Block percentage bonus `(value / 100)%`                                                                                                |
+| 46    | `soul_atk_4`         | int32  | Soul - Breakthrough percentage bonus `(value / 10)%`                                                                                          |
+| 47    | `soul_def_3`         | int32  | Soul - Counteraction percentage bonus `(value / 10)%`                                                                                         |
 | 48    | `max_stack_size`     | int32  | Maximum amount the same item can be stacked in same item slot                                                                                 |
 | 49    | `elem_res_metal`     | int32  | Metal element resistance bonus (unused)                                                                                                       |
 | 50    | `elem_res_wood`      | int32  | Wood element resistance bonus                                                                                                                 |
