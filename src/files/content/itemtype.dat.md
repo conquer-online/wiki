@@ -2,7 +2,7 @@
 
 This file is loaded when the client starts. It defines every item in the game such as equipment, weapons, consumables, mounts, soul/purification, garments, crafting materials, and more.
 
-Records in `itemtype.dat` are the default values for the item, [MsgItemInfo](../../network/messages/msgiteminfo.md) can be used to supply some of the dynamic values (such as the socketed gems or expiration time)
+Records in `itemtype.dat` are the default values for the item, [MsgItemInfo](../../network/messages/msgiteminfo.md) can be used to supply some of the dynamic values (such as the socketed gems, expiration time, durability and more)
 
 See [Item ID](../../constants/itemid.md) for the full breakdown of how Item IDs encodes information such category, weapon type, item level & quality for equipment.
 
@@ -45,8 +45,8 @@ After decryption, the file is plain-text with an item record-per-line. Each fiel
 | 19    | `dodge`              | uint16 | Dodge bonus                                                                                                                                   |
 | 20    | `life`               | uint16 | HP bonus                                                                                                                                      |
 | 21    | `mana`               | uint16 | MP bonus                                                                                                                                      |
-| 22    | `durability`         | uint16 | Default durability                                                                                                                            |
-| 23    | `durability_limit`   | uint16 | Maximum durability                                                                                                                            |
+| 22    | `durability`         | uint16 | Default durability. In the item tooltip this is displayed as `floor(value / 100)`                                                             |
+| 23    | `durability_limit`   | uint16 | Maximum durability. In the item tooltip this is displayed as `floor(value / 100)`                                                             |
 | 24    | `identified`         | uint8  | Unused                                                                                                                                        |
 | 25    | `gem1`               | uint8  | Socket 1 Gem [Item ID](../../constants/itemid.md) (0 = empty socket)                                                                          |
 | 26    | `gem2`               | uint8  | Socket 2 Gem [Item ID](../../constants/itemid.md) (0 = empty socket)                                                                          |
