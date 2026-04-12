@@ -29,7 +29,7 @@ After decryption, the file is plain-text with an item record-per-line. Each fiel
 | 3     | `req_profession`     | uint8  | Required [Hero Profession](../../constants/heroprofession.md)                                                                                 |
 | 4     | `req_weaponskill`    | uint8  | Required Weapon Proficiency level                                                                                                             |
 | 5     | `req_level`          | uint8  | Minimum character level required to equip or use                                                                                              |
-| 6     | `req_sex`            | uint8  | Hero restriction (0=any, 1=Male , 2=Female)                                                                                                   |
+| 6     | `req_sex`            | uint8  | Hero gender restriction (0=any, 1=Male , 2=Female)                                                                                            |
 | 7     | `req_force`          | uint16 | Required Strength attribute amount                                                                                                            |
 | 8     | `req_speed`          | uint16 | Required Agility attribute amount                                                                                                             |
 | 9     | `req_health`         | uint16 | Required Vitality attribute amount                                                                                                            |
@@ -79,7 +79,7 @@ After decryption, the file is plain-text with an item record-per-line. Each fiel
 | 53    | `elem_res_earth`     | int32  | Earth element resistance bonus                                                                                                                |
 | 54    | `item_type`          | string | Tooltip description of the item type                                                                                                          |
 | 55    | `description`        | string | Tooltip long description about the item                                                                                                       |
-| 56    | `quality_color`      | int32  | For non-equipment, the item color. Quality value same as [Equipment Quality](../../constants/itemid.md)                                       |
+| 56    | `quality_color`      | int32  | For non-equipment, the item name color. Quality value same as [Equipment Quality](../../constants/itemid.md)                                  |
 | 57    | `dragonsoul_phase`   | uint16 | Dragonsoul phase number (1-6)                                                                                                                 |
 | 58    | `dragonsoul_req`     | int32  | Dragonsoul requirement to reach next phase                                                                                                    |
 | 59    | `crop_quality`       | int32  | Only used by item `Riding Crop` quality (1=Unique, 2=Elite, 3=Super)                                                                          |
