@@ -50,18 +50,18 @@ This message is used entirely for the [Nobility](../../features/nobility.md) (ak
 
 Each entry is **always** 48 bytes.
 
-| Offset | Type   | Name                                     | Description                                                                   |
-|:-------|:-------|:-----------------------------------------|:------------------------------------------------------------------------------|
-| 0      | UInt32 | [Hero ID](../identifiers.md)             | The player's unique identifier                                                |
-| 4      | UInt8  | Hero Online                              | Boolean set to `1` if player is online (value is unused by the client)        |
-| 5      | UInt8  | -                                        | Padding                                                                       |
-| 6      | UInt16 | -                                        | Padding                                                                       |
-| 8      | UInt32 | [Look Face](../../constants/lookface.md) | The player's mesh, to derive gender of the peerage rank                       |
-| 12     | String | [HeroName](../../strings/heroname.md)    | Player's character name (16 bytes)                                            |
-| 28     | UInt32 | -                                        | Padding                                                                       |
-| 32     | Int64  | PlayerTotalDonation                      | The player's cumulative total donation amount                                 |
-| 40     | UInt32 | PeerageRank                              | The player's peerage rank number, see [Nobility](../../features/nobility.md)  |
-| 44     | Int32  | Position                                 | The player's position on the donation leaderboard (Start at 0, client adds 1) |
+| Pos | Type   | Name                                     | Description                                                                   |
+|:----|:-------|:-----------------------------------------|:------------------------------------------------------------------------------|
+| 0   | UInt32 | [Hero ID](../identifiers.md)             | The player's unique identifier                                                |
+| 4   | UInt8  | Hero Online                              | Boolean set to `1` if player is online (value is unused by the client)        |
+| 5   | UInt8  | -                                        | Padding                                                                       |
+| 6   | UInt16 | -                                        | Padding                                                                       |
+| 8   | UInt32 | [Look Face](../../constants/lookface.md) | The player's mesh, to derive gender of the peerage rank                       |
+| 12  | String | [HeroName](../../strings/heroname.md)    | Player's character name (16 bytes)                                            |
+| 28  | UInt32 | -                                        | Padding                                                                       |
+| 32  | Int64  | PlayerTotalDonation                      | The player's cumulative total donation amount                                 |
+| 40  | UInt32 | PeerageRank                              | The player's peerage rank number, see [Nobility](../../features/nobility.md)  |
+| 44  | Int32  | Position                                 | The player's position on the donation leaderboard (Start at 0, client adds 1) |
 
 ### ContributeDonateInfoString
 
