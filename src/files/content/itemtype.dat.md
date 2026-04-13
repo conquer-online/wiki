@@ -93,14 +93,10 @@ Pass the decrypted `itemtype.dat` path as the first arg & it will output a csv c
 Example: `python3 itemtype_decode.py itemtype_decrypted.dat`
 
 ```python
-import csv
-import sys
+import csv, sys
 
-# This script has only been tested on client 5517 itemtype.dat. Other patches may have a different amount of fields so this script will not work
-
-FIELD_SEP = "@@"
-
-FIELDS = [
+# NOTE: This script has only been tested on client 5517 itemtype.dat. Other patches may have a different amount of fields so this script will not work
+FIELDS_PATCH_5517 = [
     "id", "name", "req_profession", "req_weaponskill", "req_level", "req_sex",
     "req_force", "req_speed", "req_health", "req_soul", "monopoly", "weight",
     "price", "id_action", "attack_max", "attack_min", "defense", "agility",
@@ -122,7 +118,7 @@ with open(input_path, "r", encoding="gbk", errors="replace") as f_in, \
      open(output_path, "w", newline="", encoding="utf-8") as f_out:
 
     writer = csv.writer(f_out)
-    writer.writerow(FIELDS)
+    writer.writerow(FIELDS_PATCH_5517)
     skipped = 0
     rows_extracted = 0
 
@@ -130,10 +126,10 @@ with open(input_path, "r", encoding="gbk", errors="replace") as f_in, \
         line = line.strip()
         if not line:
             continue
-        parts = line.split(FIELD_SEP)
-        if parts and parts[-1] == "":
+        parts = line.split("@@")
+        if parts[-1] == "":
             parts = parts[:-1]
-        if len(parts) != len(FIELDS):
+        if len(parts) != len(FIELDS_PATCH_5517):
             skipped += 1
             continue
         writer.writerow(parts)
