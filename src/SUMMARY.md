@@ -22,6 +22,7 @@
     - [Hairstyles](constants/hairstyles.md)
     - [Hero Look](constants/herolook.md)
     - [Hero Profession](constants/heroprofession.md)
+    - [Item ID](constants/itemid.md)
     - [Look Face](constants/lookface.md)
     - [PK Mode](constants/pkmode.md)
     - [Role Type](constants/roletype.md)
