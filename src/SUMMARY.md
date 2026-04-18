@@ -36,7 +36,10 @@
         - [AutoPatch.dat](files/content/autopatch.dat.md)
         - [chatContribute.Ani](files/content/chatContribute.Ani.md)
         - [Cn_Res.ini](files/content/cn_res.ini.md)
+        - [CodePage.ini](files/content/CodePage.ini.md)
         - [Control.ani](files/content/control.ani.md)
+        - [font.ini](files/content/font.ini.md)
+        - [FontSetting.ini](files/content/FontSetting.ini.md)
         - [Fuse.ini](files/content/fuse.ini.md)
         - [GameMap.dat](files/content/gamemap.dat.md)
         - [GUI.ini](files/content/gui.ini.md)
@@ -66,6 +69,7 @@
         - [start.dat](files/content/start.dat.md)
         - [start-facebook.dat](files/content/start-facebook.dat.md)
         - [StatusEffect.ini](files/content/statuseffect.ini.md)
+        - [StrRes.ini](files/content/StrRes.ini.md)
         - [suittype.dat](files/content/suittype.dat.md)
         - [Tips.dat](files/content/tips.dat.md)
         - [Title.ini](files/content/title.ini.md)
@@ -322,6 +326,7 @@
     - [Timestamps](network/timestamps.md)
 
 - [Features](features/README.md)
+    - [Enthrallment](features/enthrallment.md)
     - [Nobility](features/nobility.md)
     - [VIP](features/vip.md)
 
