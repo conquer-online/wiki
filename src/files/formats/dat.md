@@ -20,12 +20,12 @@ A DAT file is generic data. DAT files are either plain-text, binary-encoded, or 
 |-----------------------------------------------------------------|-------------------------------------------------------------------------|
 | [./AutoPatch.dat](../content/autopatch.dat)                     | Unencrypted - Plain Text                                                |
 | [./ini/UserHelpInfo.dat](../content/userhelpinfo.dat)           | TQ File Cipher (Seed: 9527 / 0x2537)                                    |
-| [./ini/Action.dat](../content/action.dat)                       | Unknown & No references to it (Unused?)                                 |
+| [./ini/Action.dat](../content/action.dat)                       | Unencrypted - Binary Encoded. Unused File (Remnant)                     |
 | [./ini/Monster.dat](../content/monster.dat)                     | TQ File Cipher (Seed: 9527 / 0x2537)                                    |
-| [./ini/GameMap.dat](../content/gamemap.dat)                     | Binary Encoded                                                          |
-| [./ini/AutoAllot.dat](../content/autoallot.dat)                 | Unknown & No references to it (Unused?)                                 |
+| [./ini/GameMap.dat](../content/gamemap.dat)                     | Unencrypted - Binary Encoded                                            |
+| [./ini/AutoAllot.dat](../content/autoallot.dat)                 | Unencrypted - Binary Encoded. Unused File (Remnant)                     |
 | [./ini/MyAnimate.dat](../content/myanimate.dat)                 | RSA Encrypted                                                           |
-| [./ini/LevelExp.dat](../content/levelexp.dat)                   | Unknown & No references to it (Unused?)                                 |
+| [./ini/LevelExp.dat](../content/levelexp.dat)                   | Custom Encrypted: XOR with Hardcoded 27-Byte Key. Unused File (Remnant) |
 | [./ini/Shop.dat](../content/shop.dat)                           | Unencrypted - Plain Text                                                |
 | [./ini/Play.dat](../content/play.dat)                           | Custom Encrypted: Subtract 6 from each byte (Used in play.exe launcher) |
 | [./ini/ShowHandTable.dat](../content/showhandtable.dat)         | RSA Encrypted                                                           |
@@ -41,7 +41,7 @@ A DAT file is generic data. DAT files are either plain-text, binary-encoded, or 
 | [./ini/showhandlayout.dat](../content/showhandlayout.dat)       | RSA Encrypted                                                           |
 | [./ini/itemtype.dat](../content/itemtype.dat)                   | TQ File Cipher (Seed: 9527 / 0x2537)                                    |
 | [./ini/MapDestination.dat](../content/mapdestination.dat)       | TQ File Cipher (Seed: 9527 / 0x2537)                                    |
-| [./ini/Tips.dat](../content/tips.dat)                           | Binary Encoded                                                          |
+| [./ini/Tips.dat](../content/tips.dat)                           | Unencrypted - Binary Encoded                                            |
 | [./version.dat](../content/version.dat)                         | Unencrypted - Plain Text                                                |
 | [./res.dat](../content/res.dat)                                 | Unencrypted - Plain Text                                                |
 | [./Server.dat](../content/server.dat)                           | RSA Encrypted                                                           |
