@@ -281,7 +281,7 @@ enum UserAttribTypes {
     USERATTRIB_BIRTH_PROF = 51;              // Original Profession
     USERATTRIB_TEAM_ID = 52;                 // PK Team / Arena Team ID
     USERATTRIB_SOUL_SHACKLE = 54;            // Stops player from reviving
-    USERATTRIB_EXPBALL_USE_TIMES = 128;      // ExpBalls used today (Populates ExpBall MsgBox)  (Data1=(day_of_month + 100 * month) * 10 + use_count)
+    USERATTRIB_EXPBALL_USE_TIMES = 128;      // ExpBalls used today (Used in calculation for ExpBall Action MsgBox)  (Data1=(day_of_month + 100 * month) * 10 + use_count)
 }
 ```
 
