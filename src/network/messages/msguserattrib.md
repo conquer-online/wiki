@@ -254,13 +254,11 @@ enum UserAttribTypes {
     USERATTRIB_SYN_DONATION = 19;          // Guild Donation
     USERATTRIB_CURSE_SECONDS = 20;         // No XP Gain & Prevent City Teleport Scrolls remaining seconds
     USERATTRIB_METEMPSYCHOSIS = 22;        // Rebirth Count
-    USERATTRIB_UNKNOWN_1 = 23;
     USERATTRIB_USERSTATUS = 25;            // 128-bit status bitwise flag: Data1=bits 0-63, Data2=bits 64-127 See: UserStatusFlags
     USERATTRIB_HAIR = 26;
     USERATTRIB_XP_CIRCLE = 27;             // XP Skill Circle % (0-100)
     USERATTRIB_LUCKY_SECONDS = 28;         // Lucky time remaining milliseconds
     USERATTRIB_EMONEY = 29;                // Conquer Points
-    USERATTRIB_UNKNOWN_2 = 30;
     USERATTRIB_ONLINE_TRAINING = 31;       // Online training state See: UserAttribOnlineTrainingState
     USERATTRIB_ENTHRALLMENT_UPDATE_STATE = 32;
     USERATTRIB_ENTHRALLMENT_ONLINE_TIME_SYNC = 33;
@@ -277,13 +275,13 @@ enum UserAttribTypes {
     USERATTRIB_GUILD_BP = 44;
     USERATTRIB_BOUND_EMONEY = 45;            // Bound Conquer Points
     USERATTRIB_HORSE_RACING_POINTS = 47;
-    USERATTRIB_UNKNOWN_3 = 48;
+    USERATTRIB_FACTION_PK_REST_TIME = 48;    // Populates Faction PK Status Icon Text (STR_FACTION_PK_ICON_TIP)
     USERATTRIB_AZURE_SHIELD = 49;            // See: AzureShieldSubType
     USERATTRIB_FIR_METE_PROF = 50;           // Profession during first rebirth
     USERATTRIB_BIRTH_PROF = 51;              // Original Profession
     USERATTRIB_TEAM_ID = 52;                 // PK Team / Arena Team ID
     USERATTRIB_SOUL_SHACKLE = 54;            // Stops player from reviving
-    USERATTRIB_UNKNOWN_4 = 128;
+    USERATTRIB_EXPBALL_USE_TIMES = 128;      // ExpBalls used today (Populates ExpBall MsgBox)  (Data1=(day_of_month + 100 * month) * 10 + use_count)
 }
 ```
 
