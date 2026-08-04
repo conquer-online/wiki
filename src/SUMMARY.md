@@ -239,6 +239,7 @@
         - [MsgRaceTrackPropEffect](network/messages/msgracetrackpropeffect.md)
         - [MsgRaceTrackStatus](network/messages/msgracetrackstatus.md)
         - [MsgRank](network/messages/msgrank.md)
+        - [MsgRankMemberShow](network/messages/msgrankmembershow.md)
         - [MsgRegister](network/messages/msgregister.md)
         - [MsgRegisterFaceBook](network/messages/msgregisterfacebook.md)
         - [MsgRelation](network/messages/msgrelation.md)
