@@ -262,3 +262,4 @@ For some message types, in later client versions the message type changed to a 5
 | 2703 | [MsgOwnKongRank](msgownkongrank.md) |  |
 | 2704 | [MsgOwnKongfuPKSetting](msgownkongfupksetting.md) |  |
 | 2710 | [MsgMagicCoat](msgmagiccoat.md) |  |
+| 3257 | [MsgRankMemberShow](msgrankmembershow.md) | Avatar shown for a ranking leaderboard's top hero |
